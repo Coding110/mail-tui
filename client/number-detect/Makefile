@@ -1,8 +1,8 @@
 CXX=g++
-TARG=test
+TARG=detect_demo
 LIB=-lcurl
 INC=
-SRC=test.cpp detect.cpp common.cpp
+SRC=demo.cpp detect.cpp common.cpp cJSON.cpp
 DEBUG=-g
 
 all:

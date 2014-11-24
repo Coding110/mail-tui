@@ -3,14 +3,16 @@
 
 #include <iostream>
 #include <cstring>
+#include <vector>
 using namespace std;
 
+#include "common.h"
 
+int get_detecting_numbers(vector<number_info_t> &nis, const char *user = "selfless guy", const char *url = NULL);
+int upload_detected_result(vector<number_info_t> &nis, const char *user = "selfless guy", const char *url = NULL);
 
-int get_detecting_numbers();
-int upload_detected_result();
-
-int qzone_detect(char *number);
+int qzone_detect(const char *number);
+int multi_qzone_detect(vector<number_info_t> &nis);
 
 #endif
 

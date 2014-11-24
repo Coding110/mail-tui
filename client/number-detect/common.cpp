@@ -2,6 +2,8 @@
 #include <curl/curl.h>
 #include "common.h"
 
+size_t http_write_data(void *ptr, size_t size, size_t nmemb, void *args);
+
 int memcpy_no_blank(char *src, size_t src_size, string &dst)
 {
 	char *buf = new char[src_size];
@@ -30,7 +32,7 @@ int string_line_format(string &src)
 	return pos;
 }
 
-int http_get(char *url, data_t &http_data)
+int http_get(const char *url, data_t &http_data)
 {
 	int ret = 0;
 	
@@ -72,20 +74,50 @@ size_t http_write_data(void *ptr, size_t size, size_t nmemb, void *args)
 	return total;
 }
 
-bool http_post(char *url)
+int http_post(const char *url, char *form_data, data_t &http_data)
 {
     CURL *curl;
     CURLcode res;
     curl = curl_easy_init();
+	int ret = 0;
     if (curl)
     {
-        //curl_easy_setopt(curl, CURLOPT_COOKIEFILE, "/tmp/cookie.txt"); // 指定cookie文件
-        curl_easy_setopt(curl, CURLOPT_POSTFIELDS, "&logintype=uid&u=xieyan&psw=xxx86");    // 指定post内容
-        curl_easy_setopt(curl, CURLOPT_URL, url);   // 指定url
-        //curl_easy_setopt(curl, CURLOPT_WRITEDATA, fp);
+        curl_easy_setopt(curl, CURLOPT_URL, url);
+        curl_easy_setopt(curl, CURLOPT_POSTFIELDS, form_data);
+        curl_easy_setopt(curl, CURLOPT_WRITEDATA, &http_data); 
+		curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, http_write_data);
         res = curl_easy_perform(curl);
+        if (res != 0) {
+			ret = -1;
+			printf("curl error: %s\n", curl_easy_strerror(res));
+        }else{
+		}
     }
     curl_easy_cleanup(curl);
-    return true;
+    return ret;
 }
 
+int numbers_split(vector<number_info_t> &nis, char *numbers)
+{
+    number_info_t ni;
+
+    char *p = numbers, *key_point;
+    char key[1024], value[1024];
+
+    while(p)
+    {
+        while ( key_point = strsep(&p,","))
+        {
+            if (*key_point == 0)
+                continue;
+            else
+                break;
+        }
+
+        ni.number = key_point;
+        ni.weight = 0;
+        nis.push_back(ni);
+        //printf("string: %s, key: %s, value: %s\n",key_point, key, value);
+    }
+	return 0;
+}
