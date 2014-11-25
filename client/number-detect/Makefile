@@ -2,7 +2,7 @@ CXX=g++
 TARG=detect_demo
 LIB=-lcurl
 INC=
-SRC=demo.cpp detect.cpp common.cpp cJSON.cpp
+SRC=demo.cpp detect.cpp common.cpp cJSON.cpp config.cpp
 DEBUG=-g
 
 all:

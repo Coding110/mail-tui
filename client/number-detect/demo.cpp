@@ -1,7 +1,26 @@
 #include <stdio.h>
 #include "detect.h"
+#include "config.h"
+
+int detect_test(int argc, char *argv[]);
+int config_test(int argc, char *argv[]);
 
 int main(int argc, char *argv[])
+{
+	//detect_test(argc, argv);
+	config_test(argc, argv);
+	return 0;
+}
+
+int config_test(int argc, char *argv[])
+{
+	config_t g_cfg;
+	read_config("config.ini", g_cfg);
+	config_show(g_cfg);
+	return 0;
+}
+
+int detect_test(int argc, char *argv[])
 {
 
 	// test 1
