@@ -7,6 +7,11 @@
 #include <stdio.h>
 using namespace std;
 
+#ifdef WIN32
+#define snprintf sprintf_s
+#else
+#endif
+
 typedef struct _data_t
 {
 	string buffer;
@@ -31,6 +36,8 @@ int http_post(const char *url, char *form_data, data_t &http_data);
 int memcpy_no_blank(char *src, size_t src_size, string &dst);
 int string_line_format(string &src);
 int numbers_split(vector<number_info_t> &nis, char *numbers);
+
+char *strsep(char **stringp, const char *delim);
 
 #endif
 

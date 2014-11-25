@@ -14,13 +14,13 @@ int qzone_detect(const char *number)
 	char detect_url_1[1024];
 	char detect_url_2[1024];
 	data_t http_data;
-	sprintf(detect_url_1, DETECT_URL_FORMAT, number);
+	snprintf(detect_url_1, 1024, DETECT_URL_FORMAT, number);
 	ret = http_get(detect_url_1, http_data);
 	string_line_format(http_data.buffer);
 	weight = get_ss_weight(http_data.buffer);
 	if(weight == -1){
 		http_data.buffer.clear();
-		sprintf(detect_url_2, DETECT_URL_FORMAT_2, number);
+		snprintf(detect_url_2, 1024, DETECT_URL_FORMAT_2, number);
 		ret = http_get(detect_url_2, http_data);
 		weight = get_content_weight(http_data.buffer);
 	}
@@ -144,10 +144,11 @@ int get_detecting_numbers(vector<number_info_t> &nis, const char *user, const ch
 
 int upload_detected_result(vector<number_info_t> &nis, const char *user, const char *url)
 {
+	char *buf = NULL;
 	int len = nis.size();
 	int w, ret;
 	int buf_len = 30 * len + 100; // 估算内存大小，每个QQ的信息大小大概是30个字节
-	char *buf = new char[buf_len]; 
+	buf = new char[buf_len];
 	if(buf == NULL) printf("new memory error [%s]\n", strerror(errno));
 	int buf_size = 0;
 	buf_size = snprintf(buf, buf_len, "result={\"version\":\"%s\",\"result\":[", VERSION);
