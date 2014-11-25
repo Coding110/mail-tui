@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <curl/curl.h>
-#include "common.h"
+#include "common.h" 
+
+#pragma comment(lib, "libcurl.lib")
 
 size_t http_write_data(void *ptr, size_t size, size_t nmemb, void *args);
 
@@ -23,7 +25,7 @@ int string_line_format(string &src)
 	size_t src_size = src.size();
 	char *buf = new char[src_size];
 	size_t pos = 0;
-	for(int i; i < src_size; i++){
+	for(int i = 0; i < src_size; i++){
 		if(src[i] != ' ' && src[i] != '\r' && src[i] != '\n' && src[i] != '\t') buf[pos++] = src[i];
 	}
 	buf[pos] = '\0';
@@ -121,3 +123,24 @@ int numbers_split(vector<number_info_t> &nis, char *numbers)
     }
 	return 0;
 }
+
+#ifdef WIN32
+char *strsep(char **stringp, const char *delim)
+{
+	char *p;
+
+	if (!stringp)
+		return(NULL);
+	p = *stringp;
+	while (**stringp && !strchr(delim, **stringp))
+		(*stringp)++;
+	if (**stringp)
+	{
+		**stringp = '\0';
+		(*stringp)++;
+	}
+	else
+		*stringp = NULL;
+	return(p);
+}
+#endif
