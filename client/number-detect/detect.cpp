@@ -4,6 +4,7 @@
 #include "common.h"
 #include "detect.h"
 #include "cJSON.h"
+#include "log.h"
 
 int get_ss_weight(string &html);
 int get_content_weight(string &html);
@@ -79,7 +80,6 @@ int get_content_weight(string &html)
 {
 	string::size_type pos1 = html.find("<div class=\"main_content\">");
 	string::size_type pos2 = html.find("<div class=\"error_content\">");
-	//printf("main_content: %d, error_content: %d\n", pos1, pos2);
 	if(pos1 != string::npos) return 2;
 	if(pos2 != string::npos) return 0;
 	return 0;
@@ -113,20 +113,21 @@ int get_detecting_numbers(vector<number_info_t> &nis, const char *user, const ch
 		cJSON *json, *item;
 		json = cJSON_Parse(http_data.buffer.c_str());
 		if(!json){
-			fprintf(stderr, "JSON parse error [%s]\n", cJSON_GetErrorPtr());
+			//fprintf(stderr, "JSON parse error [%s]\n", cJSON_GetErrorPtr());
+			Logging(E_LOG_ERROR, "JSON parse error [%s]\n", cJSON_GetErrorPtr());
 			ret = -2; break;
 		}
 
 		item = cJSON_GetObjectItem(json, "QQs");
 		if(!json){
-			fprintf(stderr, "Get array item of JSON error [%s]\n", cJSON_GetErrorPtr());
+			Logging(E_LOG_ERROR, "Get array item of JSON error [%s]\n", cJSON_GetErrorPtr());
 			ret = -3; break;
 		}
 
 		pQQs = cJSON_Print(item);
 		//printf("QQs 1: %s\n", pQQs);
 		if(pQQs == NULL){
-			fprintf(stderr, "Get item value of JSON error [%s]\n", cJSON_GetErrorPtr());
+			Logging(E_LOG_ERROR, "Get item value of JSON error [%s]\n", cJSON_GetErrorPtr());
 			ret = -4; break;
 		}
 		int len = strlen(pQQs);
@@ -149,7 +150,7 @@ int upload_detected_result(vector<number_info_t> &nis, const char *user, const c
 	int w, ret;
 	int buf_len = 30 * len + 100; // 估算内存大小，每个QQ的信息大小大概是30个字节
 	buf = new char[buf_len];
-	if(buf == NULL) printf("new memory error [%s]\n", strerror(errno));
+	//if(buf == NULL) printf("new memory error [%s]\n", strerror(errno));
 	int buf_size = 0;
 	buf_size = snprintf(buf, buf_len, "result={\"version\":\"%s\",\"result\":[", VERSION);
 
@@ -167,7 +168,7 @@ int upload_detected_result(vector<number_info_t> &nis, const char *user, const c
 	buf_size += snprintf(buf + buf_size, buf_len, "]}");
 	buf[buf_size] = '\0';
 
-	printf("upload json:\n%s\n", buf);
+	Logging(E_LOG_INFO, "upload json:\n%s\n", buf);
 	
 	char post_url[1024] = {0};
 	const char *p_url = NULL;
@@ -180,7 +181,7 @@ int upload_detected_result(vector<number_info_t> &nis, const char *user, const c
 	}
 
 	ret = http_post(p_url, buf, http_data);
-	printf("upload respone:\n%s\n", http_data.buffer.c_str());
+	Logging(E_LOG_INFO, "upload respone:\n%s\n", http_data.buffer.c_str());
 
 	return ret;
 }

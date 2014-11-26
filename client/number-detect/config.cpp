@@ -36,6 +36,8 @@ int read_config(const char *cfgfile, config_t &cfg)
 			cfg.upload_num_url = value;
 		}else if(memcmp(key, "thread_count", 12) == 0){
 			cfg.thread_count = atoi(value);
+		}else if(memcmp(key, "username", 8) == 0){
+			cfg.username = value;
 		}else{
 		}
 	}

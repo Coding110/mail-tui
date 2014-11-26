@@ -1,0 +1,707 @@
+2014-10-25 23:18:27 -DEBUG- easy detect starting.
+2014-10-25 23:18:27 -DEBUG- easy detect starting.
+2014-10-25 23:18:27 -DEBUG- got 10 numbers
+2014-10-25 23:18:27 -DEBUG- got -721492480 numbers
+2014-10-25 23:20:01 -DEBUG- easy detect starting.
+2014-10-25 23:20:01 -DEBUG- easy detect starting.
+2014-10-25 23:20:01 -DEBUG- got 10 numbers
+2014-10-25 23:20:01 -DEBUG- got -1915709968 numbers
+2014-10-25 23:20:59 -DEBUG- easy detect starting.
+2014-10-25 23:20:59 -DEBUG- got 10 numbers
+2014-10-25 23:22:03 -DEBUG- easy detect starting.
+2014-10-25 23:22:03 -DEBUG- got 10 numbers
+2014-10-25 23:22:03 -DEBUG- start lazy join
+2014-10-25 23:25:00 -DEBUG- easy detect starting.
+2014-10-25 23:25:00 -DEBUG- got 10 numbers
+2014-10-25 23:25:00 -DEBUG- start lazy join
+2014-10-25 23:47:06 -DEBUG- easy detect starting.
+2014-10-25 23:47:06 -DEBUG- got 10 numbers
+2014-10-25 23:47:06 -DEBUG- start lazy join
+2014-10-25 23:47:11 -DEBUG- end lazy join
+2014-10-25 23:47:11 -DEBUG- 10 numbers detecting finished
+2014-10-25 23:47:11 -DEBUG- 10 numbers detected result upload finished
+2014-10-25 23:49:27 -DEBUG- easy detect starting.
+2014-10-25 23:49:27 -DEBUG- got 10 numbers
+2014-10-25 23:49:27 -DEBUG- start lazy join
+2014-10-25 23:49:28 -DEBUG- end lazy join
+2014-10-25 23:49:28 -DEBUG- 10 numbers detecting finished
+2014-10-25 23:49:28 -DEBUG- 10 numbers detected result upload finished
+2014-10-25 23:55:03 -DEBUG- easy detect starting.
+2014-10-25 23:55:03 -DEBUG- got 10 numbers
+2014-10-25 23:55:03 -DEBUG- start lazy join
+2014-10-25 23:55:05 -DEBUG- end lazy join
+2014-10-25 23:55:05 -DEBUG- 10 numbers detecting finished
+2014-10-25 23:55:05 -DEBUG- 10 numbers detected result upload finished
+2014-10-26 00:01:05 -DEBUG- easy detect starting.
+2014-10-26 00:01:05 -DEBUG- got 10 numbers
+2014-10-26 00:01:05 -DEBUG- start lazy join
+2014-10-26 00:01:06 -DEBUG- end lazy join
+2014-10-26 00:01:06 -DEBUG- 10 numbers detecting finished
+2014-10-26 00:01:06 -DEBUG- 10 numbers detected result upload finished
+2014-10-26 00:04:17 -DEBUG- easy detect starting.
+2014-10-26 00:04:17 -DEBUG- got 10 numbers
+2014-10-26 00:04:17 -DEBUG- start lazy join
+2014-10-26 00:04:19 -DEBUG- end lazy join
+2014-10-26 00:04:19 -DEBUG- 10 numbers detecting finished
+2014-10-26 00:04:19 -DEBUG- 10 numbers detected result upload finished
+2014-10-26 00:07:37 -DEBUG- easy detect starting.
+2014-10-26 00:07:37 -DEBUG- got 10 numbers
+2014-10-26 00:07:37 -DEBUG- start lazy join
+2014-10-26 00:07:38 -DEBUG- end lazy join
+2014-10-26 00:07:38 -DEBUG- 10 numbers detecting finished
+2014-10-26 00:07:38 -DEBUG- 10 numbers detected result upload finished
+2014-10-26 00:08:26 -DEBUG- easy detect starting.
+2014-10-26 00:08:26 -DEBUG- got 10 numbers
+2014-10-26 00:08:26 -DEBUG- start lazy join
+2014-10-26 00:08:27 -DEBUG- end lazy join
+2014-10-26 00:08:27 -DEBUG- 10 numbers detecting finished
+2014-10-26 00:08:27 -DEBUG- 10 numbers detected result upload finished
+2014-10-26 01:20:10 -DEBUG- easy detect starting.
+2014-10-26 01:20:11 -DEBUG- got 10 numbers
+2014-10-26 01:20:11 -DEBUG- start lazy join
+2014-10-26 01:22:04 -DEBUG- easy detect starting.
+2014-10-26 01:22:04 -DEBUG- got 10 numbers
+2014-10-26 01:22:04 -DEBUG- start lazy join
+2014-10-26 01:22:06 -DEBUG- end lazy join
+2014-10-26 01:22:06 -DEBUG- 10 numbers detecting finished
+2014-10-26 01:22:06 -DEBUG- 10 numbers detected result upload finished
+2014-10-26 01:29:27 -DEBUG- easy detect starting.
+2014-10-26 01:29:27 -DEBUG- got 10 numbers
+2014-10-26 01:29:27 -DEBUG- start lazy join
+2014-10-26 01:29:29 -DEBUG- end lazy join
+2014-10-26 01:29:29 -DEBUG- 10 numbers detecting finished
+2014-10-26 01:29:29 -DEBUG- 10 numbers detected result upload finished
+2014-10-26 01:30:53 -DEBUG- easy detect starting.
+2014-10-26 01:30:53 -DEBUG- got 10 numbers
+2014-10-26 01:30:53 -DEBUG- start lazy join
+2014-10-26 01:31:00 -DEBUG- end lazy join
+2014-10-26 01:31:00 -DEBUG- 10 numbers detecting finished
+2014-10-26 01:31:00 -DEBUG- 10 numbers detected result upload finished
+2014-10-26 01:33:05 -DEBUG- easy detect starting.
+2014-10-26 01:33:05 -DEBUG- got 10 numbers
+2014-10-26 01:33:05 -DEBUG- start lazy join
+2014-10-26 01:33:06 -DEBUG- end lazy join
+2014-10-26 01:33:06 -DEBUG- 10 numbers detecting finished
+2014-10-26 01:33:06 -DEBUG- 10 numbers detected result upload finished
+2014-10-26 01:37:56 -DEBUG- easy detect starting.
+2014-10-26 01:37:56 -DEBUG- got 10 numbers
+2014-10-26 01:37:56 -DEBUG- start lazy join
+2014-10-26 01:37:58 -DEBUG- end lazy join
+2014-10-26 01:37:58 -DEBUG- 10 numbers detecting finished
+2014-10-26 01:37:58 -DEBUG- 10 numbers detected result upload finished
+2014-10-26 01:37:58 -DEBUG- got 20 numbers
+2014-10-26 01:37:58 -DEBUG- start lazy join
+2014-10-26 01:38:05 -DEBUG- end lazy join
+2014-10-26 01:38:05 -DEBUG- 20 numbers detecting finished
+2014-10-26 01:38:05 -DEBUG- 20 numbers detected result upload finished
+2014-10-26 01:38:05 -DEBUG- got 30 numbers
+2014-10-26 01:38:05 -DEBUG- start lazy join
+2014-10-26 01:38:09 -DEBUG- end lazy join
+2014-10-26 01:38:09 -DEBUG- 30 numbers detecting finished
+2014-10-26 01:38:09 -DEBUG- 30 numbers detected result upload finished
+2014-10-26 01:38:09 -DEBUG- got 40 numbers
+2014-10-26 01:38:09 -DEBUG- start lazy join
+2014-10-26 01:38:19 -DEBUG- end lazy join
+2014-10-26 01:38:19 -DEBUG- 40 numbers detecting finished
+2014-10-26 01:38:19 -DEBUG- 40 numbers detected result upload finished
+2014-10-26 01:38:19 -DEBUG- got 50 numbers
+2014-10-26 01:38:19 -DEBUG- start lazy join
+2014-10-26 01:38:26 -DEBUG- end lazy join
+2014-10-26 01:38:26 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:38:26 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:38:26 -DEBUG- got 60 numbers
+2014-10-26 01:38:26 -DEBUG- start lazy join
+2014-10-26 01:38:36 -DEBUG- end lazy join
+2014-10-26 01:38:36 -DEBUG- 60 numbers detecting finished
+2014-10-26 01:38:36 -DEBUG- 60 numbers detected result upload finished
+2014-10-26 01:38:36 -DEBUG- got 70 numbers
+2014-10-26 01:38:36 -DEBUG- start lazy join
+2014-10-26 01:38:52 -DEBUG- end lazy join
+2014-10-26 01:38:52 -DEBUG- 70 numbers detecting finished
+2014-10-26 01:38:52 -DEBUG- 70 numbers detected result upload finished
+2014-10-26 01:38:52 -DEBUG- got 80 numbers
+2014-10-26 01:38:52 -DEBUG- start lazy join
+2014-10-26 01:39:02 -DEBUG- end lazy join
+2014-10-26 01:39:02 -DEBUG- 80 numbers detecting finished
+2014-10-26 01:39:02 -DEBUG- 80 numbers detected result upload finished
+2014-10-26 01:39:02 -DEBUG- got 90 numbers
+2014-10-26 01:39:02 -DEBUG- start lazy join
+2014-10-26 01:39:26 -DEBUG- end lazy join
+2014-10-26 01:39:26 -DEBUG- 90 numbers detecting finished
+2014-10-26 01:39:26 -DEBUG- 90 numbers detected result upload finished
+2014-10-26 01:39:26 -DEBUG- got 100 numbers
+2014-10-26 01:39:26 -DEBUG- start lazy join
+2014-10-26 01:39:41 -DEBUG- end lazy join
+2014-10-26 01:39:41 -DEBUG- 100 numbers detecting finished
+2014-10-26 01:39:41 -DEBUG- 100 numbers detected result upload finished
+2014-10-26 01:39:41 -DEBUG- got 110 numbers
+2014-10-26 01:39:41 -DEBUG- start lazy join
+2014-10-26 01:39:56 -DEBUG- end lazy join
+2014-10-26 01:39:56 -DEBUG- 110 numbers detecting finished
+2014-10-26 01:39:57 -DEBUG- 110 numbers detected result upload finished
+2014-10-26 01:39:57 -DEBUG- got 120 numbers
+2014-10-26 01:39:57 -DEBUG- start lazy join
+2014-10-26 01:40:22 -DEBUG- end lazy join
+2014-10-26 01:40:22 -DEBUG- 120 numbers detecting finished
+2014-10-26 01:40:22 -DEBUG- 120 numbers detected result upload finished
+2014-10-26 01:40:22 -DEBUG- got 170 numbers
+2014-10-26 01:40:22 -DEBUG- start lazy join
+2014-10-26 01:40:48 -DEBUG- end lazy join
+2014-10-26 01:40:48 -DEBUG- 170 numbers detecting finished
+2014-10-26 01:40:48 -DEBUG- 170 numbers detected result upload finished
+2014-10-26 01:40:48 -DEBUG- got 220 numbers
+2014-10-26 01:40:48 -DEBUG- start lazy join
+2014-10-26 01:41:22 -DEBUG- end lazy join
+2014-10-26 01:41:22 -DEBUG- 220 numbers detecting finished
+2014-10-26 01:41:22 -DEBUG- 220 numbers detected result upload finished
+2014-10-26 01:41:22 -DEBUG- got 270 numbers
+2014-10-26 01:41:22 -DEBUG- start lazy join
+2014-10-26 01:42:09 -DEBUG- end lazy join
+2014-10-26 01:42:09 -DEBUG- 270 numbers detecting finished
+2014-10-26 01:42:09 -DEBUG- 270 numbers detected result upload finished
+2014-10-26 01:42:09 -DEBUG- got 320 numbers
+2014-10-26 01:42:09 -DEBUG- start lazy join
+2014-10-26 01:43:47 -DEBUG- easy detect starting.
+2014-10-26 01:43:47 -DEBUG- got 50 numbers
+2014-10-26 01:43:47 -DEBUG- start lazy join
+2014-10-26 01:44:59 -DEBUG- easy detect starting.
+2014-10-26 01:44:59 -DEBUG- got 50 numbers
+2014-10-26 01:44:59 -DEBUG- start lazy join
+2014-10-26 01:45:07 -DEBUG- end lazy join
+2014-10-26 01:45:07 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:45:07 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:45:07 -DEBUG- got 50 numbers
+2014-10-26 01:45:07 -DEBUG- start lazy join
+2014-10-26 01:45:19 -DEBUG- end lazy join
+2014-10-26 01:45:19 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:45:19 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:45:19 -DEBUG- got 50 numbers
+2014-10-26 01:45:19 -DEBUG- start lazy join
+2014-10-26 01:45:30 -DEBUG- end lazy join
+2014-10-26 01:45:30 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:45:30 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:45:30 -DEBUG- got 50 numbers
+2014-10-26 01:45:30 -DEBUG- start lazy join
+2014-10-26 01:45:36 -DEBUG- end lazy join
+2014-10-26 01:45:36 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:45:36 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:45:36 -DEBUG- got 50 numbers
+2014-10-26 01:45:36 -DEBUG- start lazy join
+2014-10-26 01:45:42 -DEBUG- end lazy join
+2014-10-26 01:45:42 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:45:42 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:45:42 -DEBUG- got 50 numbers
+2014-10-26 01:45:42 -DEBUG- start lazy join
+2014-10-26 01:45:49 -DEBUG- end lazy join
+2014-10-26 01:45:49 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:45:49 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:45:49 -DEBUG- got 50 numbers
+2014-10-26 01:45:49 -DEBUG- start lazy join
+2014-10-26 01:46:01 -DEBUG- end lazy join
+2014-10-26 01:46:01 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:46:01 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:46:01 -DEBUG- got 50 numbers
+2014-10-26 01:46:01 -DEBUG- start lazy join
+2014-10-26 01:46:08 -DEBUG- end lazy join
+2014-10-26 01:46:08 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:46:08 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:46:08 -DEBUG- got 50 numbers
+2014-10-26 01:46:08 -DEBUG- start lazy join
+2014-10-26 01:46:19 -DEBUG- end lazy join
+2014-10-26 01:46:19 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:46:19 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:46:19 -DEBUG- got 50 numbers
+2014-10-26 01:46:19 -DEBUG- start lazy join
+2014-10-26 01:46:29 -DEBUG- end lazy join
+2014-10-26 01:46:29 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:46:29 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:46:29 -DEBUG- got 50 numbers
+2014-10-26 01:46:29 -DEBUG- start lazy join
+2014-10-26 01:46:39 -DEBUG- end lazy join
+2014-10-26 01:46:39 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:46:39 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:46:39 -DEBUG- got 50 numbers
+2014-10-26 01:46:39 -DEBUG- start lazy join
+2014-10-26 01:46:45 -DEBUG- end lazy join
+2014-10-26 01:46:45 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:46:45 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:46:45 -DEBUG- got 50 numbers
+2014-10-26 01:46:45 -DEBUG- start lazy join
+2014-10-26 01:46:52 -DEBUG- end lazy join
+2014-10-26 01:46:52 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:46:52 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:46:52 -DEBUG- got 50 numbers
+2014-10-26 01:46:52 -DEBUG- start lazy join
+2014-10-26 01:47:02 -DEBUG- end lazy join
+2014-10-26 01:47:02 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:47:03 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:47:03 -DEBUG- got 50 numbers
+2014-10-26 01:47:03 -DEBUG- start lazy join
+2014-10-26 01:47:11 -DEBUG- end lazy join
+2014-10-26 01:47:11 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:47:11 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:47:11 -DEBUG- got 50 numbers
+2014-10-26 01:47:11 -DEBUG- start lazy join
+2014-10-26 01:47:21 -DEBUG- end lazy join
+2014-10-26 01:47:21 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:47:21 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:47:21 -DEBUG- got 50 numbers
+2014-10-26 01:47:21 -DEBUG- start lazy join
+2014-10-26 01:47:33 -DEBUG- end lazy join
+2014-10-26 01:47:33 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:47:33 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:47:33 -DEBUG- got 50 numbers
+2014-10-26 01:47:33 -DEBUG- start lazy join
+2014-10-26 01:47:42 -DEBUG- end lazy join
+2014-10-26 01:47:42 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:47:42 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:47:42 -DEBUG- got 50 numbers
+2014-10-26 01:47:42 -DEBUG- start lazy join
+2014-10-26 01:47:48 -DEBUG- end lazy join
+2014-10-26 01:47:48 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:47:48 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:47:48 -DEBUG- got 50 numbers
+2014-10-26 01:47:48 -DEBUG- start lazy join
+2014-10-26 01:47:55 -DEBUG- end lazy join
+2014-10-26 01:47:55 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:47:55 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:47:55 -DEBUG- got 50 numbers
+2014-10-26 01:47:55 -DEBUG- start lazy join
+2014-10-26 01:48:05 -DEBUG- end lazy join
+2014-10-26 01:48:05 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:48:05 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:48:05 -DEBUG- got 50 numbers
+2014-10-26 01:48:05 -DEBUG- start lazy join
+2014-10-26 01:48:11 -DEBUG- end lazy join
+2014-10-26 01:48:11 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:48:11 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:48:11 -DEBUG- got 50 numbers
+2014-10-26 01:48:11 -DEBUG- start lazy join
+2014-10-26 01:48:18 -DEBUG- end lazy join
+2014-10-26 01:48:18 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:48:18 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:48:18 -DEBUG- got 50 numbers
+2014-10-26 01:48:18 -DEBUG- start lazy join
+2014-10-26 01:48:24 -DEBUG- end lazy join
+2014-10-26 01:48:24 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:48:24 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:48:24 -DEBUG- got 50 numbers
+2014-10-26 01:48:24 -DEBUG- start lazy join
+2014-10-26 01:48:34 -DEBUG- end lazy join
+2014-10-26 01:48:34 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:48:34 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:48:34 -DEBUG- got 50 numbers
+2014-10-26 01:48:34 -DEBUG- start lazy join
+2014-10-26 01:48:48 -DEBUG- end lazy join
+2014-10-26 01:48:48 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:48:48 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:48:48 -DEBUG- got 50 numbers
+2014-10-26 01:48:48 -DEBUG- start lazy join
+2014-10-26 01:48:56 -DEBUG- end lazy join
+2014-10-26 01:48:56 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:48:56 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:48:56 -DEBUG- got 50 numbers
+2014-10-26 01:48:56 -DEBUG- start lazy join
+2014-10-26 01:49:02 -DEBUG- end lazy join
+2014-10-26 01:49:02 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:49:02 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:49:02 -DEBUG- got 50 numbers
+2014-10-26 01:49:02 -DEBUG- start lazy join
+2014-10-26 01:49:13 -DEBUG- end lazy join
+2014-10-26 01:49:13 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:49:14 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:49:14 -DEBUG- got 50 numbers
+2014-10-26 01:49:14 -DEBUG- start lazy join
+2014-10-26 01:49:20 -DEBUG- end lazy join
+2014-10-26 01:49:20 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:49:20 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:49:20 -DEBUG- got 50 numbers
+2014-10-26 01:49:20 -DEBUG- start lazy join
+2014-10-26 01:49:29 -DEBUG- end lazy join
+2014-10-26 01:49:29 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:49:29 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:49:29 -DEBUG- got 50 numbers
+2014-10-26 01:49:29 -DEBUG- start lazy join
+2014-10-26 01:49:36 -DEBUG- end lazy join
+2014-10-26 01:49:36 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:49:36 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:49:36 -DEBUG- got 50 numbers
+2014-10-26 01:49:36 -DEBUG- start lazy join
+2014-10-26 01:49:49 -DEBUG- end lazy join
+2014-10-26 01:49:49 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:49:49 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:49:49 -DEBUG- got 50 numbers
+2014-10-26 01:49:49 -DEBUG- start lazy join
+2014-10-26 01:49:58 -DEBUG- end lazy join
+2014-10-26 01:49:58 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:49:58 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:49:58 -DEBUG- got 50 numbers
+2014-10-26 01:49:58 -DEBUG- start lazy join
+2014-10-26 01:50:07 -DEBUG- end lazy join
+2014-10-26 01:50:07 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:50:07 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:50:07 -DEBUG- got 50 numbers
+2014-10-26 01:50:07 -DEBUG- start lazy join
+2014-10-26 01:50:17 -DEBUG- end lazy join
+2014-10-26 01:50:17 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:50:17 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:50:17 -DEBUG- got 50 numbers
+2014-10-26 01:50:17 -DEBUG- start lazy join
+2014-10-26 01:50:27 -DEBUG- end lazy join
+2014-10-26 01:50:27 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:50:27 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:50:27 -DEBUG- got 50 numbers
+2014-10-26 01:50:27 -DEBUG- start lazy join
+2014-10-26 01:50:34 -DEBUG- end lazy join
+2014-10-26 01:50:34 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:50:34 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:50:34 -DEBUG- got 50 numbers
+2014-10-26 01:50:34 -DEBUG- start lazy join
+2014-10-26 01:50:45 -DEBUG- end lazy join
+2014-10-26 01:50:45 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:50:45 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:50:45 -DEBUG- got 50 numbers
+2014-10-26 01:50:45 -DEBUG- start lazy join
+2014-10-26 01:50:58 -DEBUG- end lazy join
+2014-10-26 01:50:58 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:50:58 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:50:58 -DEBUG- got 50 numbers
+2014-10-26 01:50:58 -DEBUG- start lazy join
+2014-10-26 01:51:05 -DEBUG- end lazy join
+2014-10-26 01:51:05 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:51:05 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:51:05 -DEBUG- got 50 numbers
+2014-10-26 01:51:05 -DEBUG- start lazy join
+2014-10-26 01:51:16 -DEBUG- end lazy join
+2014-10-26 01:51:16 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:51:16 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:51:16 -DEBUG- got 50 numbers
+2014-10-26 01:51:16 -DEBUG- start lazy join
+2014-10-26 01:51:23 -DEBUG- end lazy join
+2014-10-26 01:51:23 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:51:23 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:51:23 -DEBUG- got 50 numbers
+2014-10-26 01:51:23 -DEBUG- start lazy join
+2014-10-26 01:51:34 -DEBUG- end lazy join
+2014-10-26 01:51:34 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:51:34 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:51:34 -DEBUG- got 50 numbers
+2014-10-26 01:51:34 -DEBUG- start lazy join
+2014-10-26 01:51:41 -DEBUG- end lazy join
+2014-10-26 01:51:41 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:51:41 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:51:41 -DEBUG- got 50 numbers
+2014-10-26 01:51:41 -DEBUG- start lazy join
+2014-10-26 01:51:59 -DEBUG- end lazy join
+2014-10-26 01:51:59 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:51:59 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:51:59 -DEBUG- got 50 numbers
+2014-10-26 01:51:59 -DEBUG- start lazy join
+2014-10-26 01:52:06 -DEBUG- end lazy join
+2014-10-26 01:52:06 -DEBUG- 50 numbers detecting finished
+2014-10-26 01:52:06 -DEBUG- 50 numbers detected result upload finished
+2014-10-26 01:52:06 -DEBUG- got 50 numbers
+2014-10-26 01:52:06 -DEBUG- start lazy join
+2014-10-26 01:57:16 -DEBUG- easy detect starting.
+2014-10-26 01:57:16 -DEBUG- got 200 numbers
+2014-10-26 01:57:16 -DEBUG- start lazy join
+2014-10-26 01:57:48 -DEBUG- end lazy join
+2014-10-26 01:57:48 -DEBUG- 200 numbers detecting finished
+2014-10-26 01:57:48 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1003350","weight":1},{"qq":"1003351","weight":2},{"qq":"1003353","weight":2},{"qq":"1003354","weight":2},{"qq":"1003358","weight":2},{"qq":"1003360","weight":3},{"qq":"1003363","weight":3},{"qq":"1003364","weight":2},{"qq":"1003368","weight":2},{"qq":"1003370","weight":2},{"qq":"1003373","weight":2},{"qq":"1003374","weight":1},{"qq":"1003376","weight":2},{"qq":"1003377","weight":3},{"qq":"1003378","weight":2},{"qq":"1003383","weight":2},{"qq":"1003384","weight":1},{"qq":"1003390","weight":2},{"qq":"1003391","weight":2},{"qq":"1003394","weight":3},{"qq":"1003396","weight":3},{"qq":"1003397","weight":2},{"qq":"1003398","weight":2},{"qq":"1003400","weight":2},{"qq":"1003401","weight":2},{"qq":"1003408","weight":2},{"qq":"1003409","weight":3},{"qq":"1003410","weight":3},{"qq":"1003411","weight":3},{"qq":"1003412","weight":2},{"qq":"1003413","weight":2},{"qq":"1003418","weight":1},{"qq":"1003419","weight":2},{"qq":"1003421","weight":1},{"qq":"1003423","weight":2},{"qq":"1003427","weight":2},{"qq":"1003428","weight":2},{"qq":"1003430","weight":1},{"qq":"1003433","weight":2},{"qq":"1003437","weight":2},{"qq":"1003438","weight":2},{"qq":"1003439","weight":2},{"qq":"1003440","weight":2},{"qq":"1003443","weight":2},{"qq":"1003444","weight":2},{"qq":"1003447","weight":3},{"qq":"1003449","weight":3},{"qq":"1003452","weight":2},{"qq":"1003453","weight":2},{"qq":"1003456","weight":2},{"qq":"1003457","weight":2},{"qq":"1003459","weight":1},{"qq":"1003461","weight":1},{"qq":"1003462","weight":2},{"qq":"1003465","weight":2},{"qq":"1003468","weight":3},{"qq":"1003470","weight":2},{"qq":"1003473","weight":2},{"qq":"1003475","weight":2},{"qq":"1003478","weight":3},{"qq":"1003480","weight":1},{"qq":"1003481","weight":2},{"qq":"1003482","weight":2},{"qq":"1003484","weight":2},{"qq":"1003485","weight":3},{"qq":"1003491","weight":2},{"qq":"1003494","weight":2},{"qq":"1003495","weight":2},{"qq":"1003496","weight":2},{"qq":"1003501","weight":2},{"qq":"1003503","weight":2},{"qq":"1003507","weight":2},{"qq":"1003508","weight":1},{"qq":"1003511","weight":2},{"qq":"1003515","weight":2},{"qq":"1003516","weight":1},{"qq":"1003517","weight":2},{"qq":"1003518","weight":2},{"qq":"1003522","weight":2},{"qq":"1003524","weight":2},{"qq":"1003526","weight":2},{"qq":"1003527","weight":2},{"qq":"1003528","weight":2},{"qq":"1003530","weight":1},{"qq":"1003531","weight":2},{"qq":"1003532","weight":2},{"qq":"1003533","weight":2},{"qq":"1003535","weight":1},{"qq":"1003536","weight":1},{"qq":"1003537","weight":3},{"qq":"1003541","weight":2},{"qq":"1003542","weight":2},{"qq":"1003544","weight":2},{"qq":"1003545","weight":2},{"qq":"1003547","weight":2}]}
+
+2014-10-26 01:57:49 -INFO- upload respone:
+
+
+2014-10-26 01:57:49 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 01:57:49 -DEBUG- got 200 numbers
+2014-10-26 01:57:49 -DEBUG- start lazy join
+2014-10-26 01:58:21 -DEBUG- end lazy join
+2014-10-26 01:58:21 -DEBUG- 200 numbers detecting finished
+2014-10-26 01:58:21 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1003550","weight":2},{"qq":"1003552","weight":2},{"qq":"1003555","weight":1},{"qq":"1003556","weight":2},{"qq":"1003557","weight":2},{"qq":"1003558","weight":1},{"qq":"1003562","weight":2},{"qq":"1003566","weight":2},{"qq":"1003567","weight":2},{"qq":"1003568","weight":3},{"qq":"1003569","weight":2},{"qq":"1003570","weight":3},{"qq":"1003571","weight":2},{"qq":"1003573","weight":2},{"qq":"1003575","weight":2},{"qq":"1003576","weight":3},{"qq":"1003578","weight":2},{"qq":"1003579","weight":2},{"qq":"1003581","weight":2},{"qq":"1003583","weight":1},{"qq":"1003586","weight":1},{"qq":"1003587","weight":3},{"qq":"1003588","weight":1},{"qq":"1003589","weight":2},{"qq":"1003590","weight":3},{"qq":"1003592","weight":2},{"qq":"1003594","weight":2},{"qq":"1003596","weight":2},{"qq":"1003597","weight":2},{"qq":"1003600","weight":2},{"qq":"1003604","weight":2},{"qq":"1003605","weight":2},{"qq":"1003606","weight":2},{"qq":"1003607","weight":2},{"qq":"1003609","weight":2},{"qq":"1003610","weight":2},{"qq":"1003611","weight":2},{"qq":"1003612","weight":2},{"qq":"1003614","weight":2},{"qq":"1003615","weight":1},{"qq":"1003616","weight":1},{"qq":"1003620","weight":2},{"qq":"1003622","weight":3},{"qq":"1003623","weight":2},{"qq":"1003626","weight":1},{"qq":"1003627","weight":3},{"qq":"1003628","weight":2},{"qq":"1003629","weight":1},{"qq":"1003631","weight":1},{"qq":"1003634","weight":2},{"qq":"1003636","weight":1},{"qq":"1003645","weight":2},{"qq":"1003646","weight":3},{"qq":"1003648","weight":2},{"qq":"1003650","weight":2},{"qq":"1003656","weight":2},{"qq":"1003659","weight":2},{"qq":"1003661","weight":2},{"qq":"1003663","weight":3},{"qq":"1003666","weight":3},{"qq":"1003667","weight":2},{"qq":"1003670","weight":2},{"qq":"1003671","weight":2},{"qq":"1003675","weight":2},{"qq":"1003678","weight":3},{"qq":"1003683","weight":2},{"qq":"1003684","weight":1},{"qq":"1003686","weight":2},{"qq":"1003687","weight":2},{"qq":"1003688","weight":2},{"qq":"1003691","weight":2},{"qq":"1003695","weight":2},{"qq":"1003696","weight":2},{"qq":"1003697","weight":3},{"qq":"1003698","weight":3},{"qq":"1003705","weight":1},{"qq":"1003707","weight":2},{"qq":"1003713","weight":2},{"qq":"1003715","weight":2},{"qq":"1003717","weight":2},{"qq":"1003718","weight":2},{"qq":"1003721","weight":1},{"qq":"1003722","weight":1},{"qq":"1003723","weight":1},{"qq":"1003724","weight":2},{"qq":"1003725","weight":2},{"qq":"1003729","weight":2},{"qq":"1003731","weight":2},{"qq":"1003736","weight":2},{"qq":"1003737","weight":2},{"qq":"1003738","weight":2},{"qq":"1003740","weight":1},{"qq":"1003742","weight":1},{"qq":"1003743","weight":2},{"qq":"1003745","weight":2},{"qq":"1003746","weight":2},{"qq":"1003748","weight":1}]}
+
+2014-10-26 01:58:21 -INFO- upload respone:
+
+
+2014-10-26 01:58:21 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 01:58:21 -DEBUG- got 200 numbers
+2014-10-26 01:58:21 -DEBUG- start lazy join
+2014-10-26 01:58:51 -DEBUG- end lazy join
+2014-10-26 01:58:51 -DEBUG- 200 numbers detecting finished
+2014-10-26 01:58:51 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1003752","weight":1},{"qq":"1003753","weight":2},{"qq":"1003754","weight":2},{"qq":"1003755","weight":2},{"qq":"1003758","weight":2},{"qq":"1003761","weight":2},{"qq":"1003763","weight":2},{"qq":"1003769","weight":2},{"qq":"1003771","weight":2},{"qq":"1003772","weight":2},{"qq":"1003775","weight":1},{"qq":"1003776","weight":2},{"qq":"1003777","weight":2},{"qq":"1003778","weight":2},{"qq":"1003780","weight":2},{"qq":"1003782","weight":2},{"qq":"1003783","weight":3},{"qq":"1003786","weight":1},{"qq":"1003787","weight":2},{"qq":"1003788","weight":2},{"qq":"1003789","weight":2},{"qq":"1003791","weight":1},{"qq":"1003793","weight":1},{"qq":"1003794","weight":2},{"qq":"1003795","weight":2},{"qq":"1003796","weight":3},{"qq":"1003800","weight":2},{"qq":"1003802","weight":2},{"qq":"1003803","weight":2},{"qq":"1003804","weight":1},{"qq":"1003805","weight":1},{"qq":"1003810","weight":3},{"qq":"1003811","weight":1},{"qq":"1003812","weight":1},{"qq":"1003819","weight":3},{"qq":"1003821","weight":1},{"qq":"1003829","weight":2},{"qq":"1003830","weight":2},{"qq":"1003831","weight":2},{"qq":"1003834","weight":2},{"qq":"1003835","weight":3},{"qq":"1003836","weight":1},{"qq":"1003837","weight":2},{"qq":"1003838","weight":2},{"qq":"1003839","weight":2},{"qq":"1003841","weight":1},{"qq":"1003845","weight":2},{"qq":"1003847","weight":2},{"qq":"1003849","weight":2},{"qq":"1003850","weight":1},{"qq":"1003851","weight":2},{"qq":"1003855","weight":2},{"qq":"1003857","weight":1},{"qq":"1003861","weight":2},{"qq":"1003862","weight":2},{"qq":"1003863","weight":3},{"qq":"1003868","weight":2},{"qq":"1003869","weight":2},{"qq":"1003874","weight":1},{"qq":"1003877","weight":2},{"qq":"1003878","weight":2},{"qq":"1003882","weight":2},{"qq":"1003883","weight":2},{"qq":"1003888","weight":2},{"qq":"1003890","weight":3},{"qq":"1003891","weight":2},{"qq":"1003893","weight":2},{"qq":"1003895","weight":2},{"qq":"1003897","weight":1},{"qq":"1003898","weight":3},{"qq":"1003899","weight":1},{"qq":"1003900","weight":2},{"qq":"1003903","weight":2},{"qq":"1003905","weight":1},{"qq":"1003908","weight":2},{"qq":"1003909","weight":2},{"qq":"1003910","weight":2},{"qq":"1003911","weight":3},{"qq":"1003916","weight":2},{"qq":"1003918","weight":2},{"qq":"1003922","weight":1},{"qq":"1003923","weight":3},{"qq":"1003925","weight":1},{"qq":"1003926","weight":3},{"qq":"1003931","weight":3},{"qq":"1003933","weight":2},{"qq":"1003934","weight":2},{"qq":"1003937","weight":1},{"qq":"1003939","weight":2},{"qq":"1003940","weight":1},{"qq":"1003941","weight":2},{"qq":"1003942","weight":2},{"qq":"1003943","weight":2},{"qq":"1003944","weight":2},{"qq":"1003945","weight":2},{"qq":"1003946","weight":1},{"qq":"1003947","weight":2},{"qq":"1003949","weight":2}]}
+
+2014-10-26 01:58:51 -INFO- upload respone:
+
+
+2014-10-26 01:58:51 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 01:58:51 -DEBUG- got 200 numbers
+2014-10-26 01:58:51 -DEBUG- start lazy join
+2014-10-26 01:59:23 -DEBUG- end lazy join
+2014-10-26 01:59:23 -DEBUG- 200 numbers detecting finished
+2014-10-26 01:59:23 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1003953","weight":3},{"qq":"1003956","weight":2},{"qq":"1003957","weight":2},{"qq":"1003959","weight":2},{"qq":"1003960","weight":2},{"qq":"1003961","weight":2},{"qq":"1003963","weight":3},{"qq":"1003968","weight":1},{"qq":"1003969","weight":2},{"qq":"1003970","weight":2},{"qq":"1003974","weight":2},{"qq":"1003975","weight":2},{"qq":"1003976","weight":1},{"qq":"1003977","weight":2},{"qq":"1003978","weight":2},{"qq":"1003979","weight":2},{"qq":"1003981","weight":1},{"qq":"1003982","weight":3},{"qq":"1003983","weight":1},{"qq":"1003987","weight":2},{"qq":"1003990","weight":3},{"qq":"1003991","weight":1},{"qq":"1003993","weight":1},{"qq":"1003995","weight":2},{"qq":"1003996","weight":1},{"qq":"1003998","weight":1},{"qq":"1004003","weight":2},{"qq":"1004004","weight":2},{"qq":"1004006","weight":2},{"qq":"1004007","weight":2},{"qq":"1004008","weight":2},{"qq":"1004009","weight":2},{"qq":"1004020","weight":2},{"qq":"1004021","weight":2},{"qq":"1004022","weight":1},{"qq":"1004024","weight":1},{"qq":"1004025","weight":2},{"qq":"1004026","weight":1},{"qq":"1004027","weight":2},{"qq":"1004030","weight":2},{"qq":"1004031","weight":2},{"qq":"1004034","weight":2},{"qq":"1004035","weight":1},{"qq":"1004037","weight":2},{"qq":"1004038","weight":2},{"qq":"1004041","weight":1},{"qq":"1004042","weight":2},{"qq":"1004043","weight":2},{"qq":"1004044","weight":1},{"qq":"1004046","weight":2},{"qq":"1004050","weight":2},{"qq":"1004054","weight":2},{"qq":"1004057","weight":1},{"qq":"1004059","weight":2},{"qq":"1004060","weight":2},{"qq":"1004061","weight":2},{"qq":"1004062","weight":2},{"qq":"1004064","weight":3},{"qq":"1004065","weight":2},{"qq":"1004067","weight":2},{"qq":"1004070","weight":1},{"qq":"1004071","weight":2},{"qq":"1004076","weight":1},{"qq":"1004081","weight":2},{"qq":"1004083","weight":2},{"qq":"1004086","weight":2},{"qq":"1004087","weight":2},{"qq":"1004088","weight":3},{"qq":"1004089","weight":3},{"qq":"1004091","weight":2},{"qq":"1004096","weight":2},{"qq":"1004098","weight":2},{"qq":"1004099","weight":2},{"qq":"1004100","weight":1},{"qq":"1004102","weight":1},{"qq":"1004104","weight":2},{"qq":"1004105","weight":1},{"qq":"1004107","weight":1},{"qq":"1004108","weight":2},{"qq":"1004109","weight":2},{"qq":"1004112","weight":1},{"qq":"1004113","weight":2},{"qq":"1004116","weight":1},{"qq":"1004117","weight":1},{"qq":"1004118","weight":2},{"qq":"1004119","weight":2},{"qq":"1004120","weight":1},{"qq":"1004121","weight":2},{"qq":"1004128","weight":2},{"qq":"1004130","weight":2},{"qq":"1004131","weight":2},{"qq":"1004133","weight":2},{"qq":"1004135","weight":2},{"qq":"1004138","weight":2},{"qq":"1004142","weight":3},{"qq":"1004144","weight":2},{"qq":"1004145","weight":2},{"qq":"1004146","weight":1},{"qq":"1004149","weight":2}]}
+
+2014-10-26 01:59:23 -INFO- upload respone:
+
+
+2014-10-26 01:59:23 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 01:59:23 -DEBUG- got 200 numbers
+2014-10-26 01:59:23 -DEBUG- start lazy join
+2014-10-26 02:00:17 -DEBUG- end lazy join
+2014-10-26 02:00:17 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:00:17 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1004153","weight":2},{"qq":"1004154","weight":2},{"qq":"1004156","weight":3},{"qq":"1004168","weight":2},{"qq":"1004169","weight":1},{"qq":"1004170","weight":2},{"qq":"1004175","weight":1},{"qq":"1004178","weight":2},{"qq":"1004180","weight":2},{"qq":"1004181","weight":2},{"qq":"1004183","weight":2},{"qq":"1004184","weight":1},{"qq":"1004187","weight":1},{"qq":"1004188","weight":2},{"qq":"1004189","weight":1},{"qq":"1004191","weight":3},{"qq":"1004192","weight":2},{"qq":"1004194","weight":2},{"qq":"1004197","weight":1},{"qq":"1004200","weight":2},{"qq":"1004203","weight":2},{"qq":"1004206","weight":2},{"qq":"1004208","weight":1},{"qq":"1004215","weight":2},{"qq":"1004218","weight":2},{"qq":"1004219","weight":2},{"qq":"1004220","weight":1},{"qq":"1004221","weight":2},{"qq":"1004222","weight":2},{"qq":"1004223","weight":2},{"qq":"1004225","weight":1},{"qq":"1004226","weight":2},{"qq":"1004233","weight":1},{"qq":"1004235","weight":2},{"qq":"1004237","weight":3},{"qq":"1004243","weight":2},{"qq":"1004247","weight":3},{"qq":"1004248","weight":2},{"qq":"1004250","weight":2},{"qq":"1004251","weight":2},{"qq":"1004256","weight":2},{"qq":"1004258","weight":2},{"qq":"1004262","weight":1},{"qq":"1004264","weight":3},{"qq":"1004266","weight":1},{"qq":"1004270","weight":3},{"qq":"1004272","weight":2},{"qq":"1004273","weight":2},{"qq":"1004274","weight":2},{"qq":"1004275","weight":1},{"qq":"1004276","weight":2},{"qq":"1004277","weight":2},{"qq":"1004279","weight":1},{"qq":"1004282","weight":1},{"qq":"1004284","weight":2},{"qq":"1004286","weight":3},{"qq":"1004291","weight":2},{"qq":"1004293","weight":2},{"qq":"1004294","weight":2},{"qq":"1004295","weight":2},{"qq":"1004299","weight":2},{"qq":"1004305","weight":2},{"qq":"1004307","weight":2},{"qq":"1004311","weight":1},{"qq":"1004315","weight":2},{"qq":"1004319","weight":2},{"qq":"1004321","weight":3},{"qq":"1004322","weight":2},{"qq":"1004323","weight":3},{"qq":"1004324","weight":2},{"qq":"1004325","weight":1},{"qq":"1004326","weight":2},{"qq":"1004329","weight":2},{"qq":"1004332","weight":2},{"qq":"1004333","weight":2},{"qq":"1004334","weight":2},{"qq":"1004335","weight":2},{"qq":"1004341","weight":2},{"qq":"1004342","weight":2},{"qq":"1004343","weight":2},{"qq":"1004344","weight":2},{"qq":"1004346","weight":2},{"qq":"1004347","weight":2},{"qq":"1004349","weight":1}]}
+
+2014-10-26 02:00:17 -INFO- upload respone:
+
+
+2014-10-26 02:00:17 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:00:17 -DEBUG- got 200 numbers
+2014-10-26 02:00:17 -DEBUG- start lazy join
+2014-10-26 02:01:12 -DEBUG- easy detect starting.
+2014-10-26 02:01:12 -DEBUG- got 200 numbers
+2014-10-26 02:01:12 -DEBUG- start lazy join
+2014-10-26 02:01:45 -DEBUG- end lazy join
+2014-10-26 02:01:45 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:01:45 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1004551","weight":2},{"qq":"1004553","weight":2},{"qq":"1004554","weight":1},{"qq":"1004555","weight":2},{"qq":"1004556","weight":3},{"qq":"1004558","weight":2},{"qq":"1004559","weight":2},{"qq":"1004560","weight":1},{"qq":"1004561","weight":2},{"qq":"1004562","weight":3},{"qq":"1004564","weight":2},{"qq":"1004568","weight":3},{"qq":"1004572","weight":2},{"qq":"1004573","weight":3},{"qq":"1004574","weight":2},{"qq":"1004576","weight":1},{"qq":"1004578","weight":1},{"qq":"1004579","weight":2},{"qq":"1004580","weight":3},{"qq":"1004582","weight":2},{"qq":"1004584","weight":1},{"qq":"1004585","weight":2},{"qq":"1004587","weight":2},{"qq":"1004588","weight":2},{"qq":"1004589","weight":1},{"qq":"1004591","weight":2},{"qq":"1004592","weight":2},{"qq":"1004595","weight":1},{"qq":"1004597","weight":2},{"qq":"1004598","weight":3},{"qq":"1004601","weight":2},{"qq":"1004603","weight":2},{"qq":"1004605","weight":2},{"qq":"1004606","weight":1},{"qq":"1004607","weight":2},{"qq":"1004609","weight":2},{"qq":"1004613","weight":2},{"qq":"1004614","weight":3},{"qq":"1004615","weight":2},{"qq":"1004619","weight":3},{"qq":"1004622","weight":2},{"qq":"1004623","weight":3},{"qq":"1004625","weight":2},{"qq":"1004628","weight":2},{"qq":"1004630","weight":2},{"qq":"1004632","weight":1},{"qq":"1004635","weight":2},{"qq":"1004640","weight":3},{"qq":"1004642","weight":2},{"qq":"1004646","weight":2},{"qq":"1004648","weight":3},{"qq":"1004650","weight":2},{"qq":"1004651","weight":1},{"qq":"1004654","weight":3},{"qq":"1004655","weight":2},{"qq":"1004660","weight":2},{"qq":"1004662","weight":2},{"qq":"1004664","weight":2},{"qq":"1004665","weight":2},{"qq":"1004666","weight":2},{"qq":"1004667","weight":1},{"qq":"1004670","weight":2},{"qq":"1004674","weight":2},{"qq":"1004676","weight":3},{"qq":"1004680","weight":1},{"qq":"1004681","weight":2},{"qq":"1004691","weight":2},{"qq":"1004692","weight":3},{"qq":"1004693","weight":2},{"qq":"1004694","weight":1},{"qq":"1004697","weight":2},{"qq":"1004699","weight":2},{"qq":"1004700","weight":2},{"qq":"1004704","weight":1},{"qq":"1004705","weight":2},{"qq":"1004708","weight":2},{"qq":"1004712","weight":3},{"qq":"1004713","weight":2},{"qq":"1004714","weight":2},{"qq":"1004716","weight":2},{"qq":"1004717","weight":2},{"qq":"1004719","weight":1},{"qq":"1004720","weight":2},{"qq":"1004722","weight":2},{"qq":"1004724","weight":2},{"qq":"1004726","weight":2},{"qq":"1004731","weight":3},{"qq":"1004732","weight":1},{"qq":"1004733","weight":1},{"qq":"1004737","weight":3},{"qq":"1004741","weight":2},{"qq":"1004742","weight":3},{"qq":"1004743","weight":3},{"qq":"1004745","weight":2},{"qq":"1004746","weight":2},{"qq":"1004747","weight":3},{"qq":"1004748","weight":2},{"qq":"1004749","weight":2}]}
+
+2014-10-26 02:01:46 -INFO- upload respone:
+
+
+2014-10-26 02:01:46 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:01:46 -DEBUG- got 200 numbers
+2014-10-26 02:01:46 -DEBUG- start lazy join
+2014-10-26 02:02:26 -DEBUG- end lazy join
+2014-10-26 02:02:26 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:02:26 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1004750","weight":2},{"qq":"1004752","weight":1},{"qq":"1004755","weight":2},{"qq":"1004758","weight":2},{"qq":"1004759","weight":2},{"qq":"1004761","weight":1},{"qq":"1004762","weight":2},{"qq":"1004765","weight":1},{"qq":"1004770","weight":2},{"qq":"1004772","weight":2},{"qq":"1004773","weight":1},{"qq":"1004774","weight":2},{"qq":"1004777","weight":2},{"qq":"1004781","weight":2},{"qq":"1004782","weight":2},{"qq":"1004783","weight":2},{"qq":"1004785","weight":2},{"qq":"1004786","weight":2},{"qq":"1004788","weight":1},{"qq":"1004789","weight":2},{"qq":"1004792","weight":2},{"qq":"1004793","weight":2},{"qq":"1004797","weight":2},{"qq":"1004798","weight":2},{"qq":"1004799","weight":2},{"qq":"1004800","weight":2},{"qq":"1004801","weight":2},{"qq":"1004802","weight":2},{"qq":"1004804","weight":2},{"qq":"1004806","weight":2},{"qq":"1004807","weight":2},{"qq":"1004810","weight":1},{"qq":"1004811","weight":2},{"qq":"1004813","weight":1},{"qq":"1004818","weight":2},{"qq":"1004820","weight":2},{"qq":"1004822","weight":2},{"qq":"1004830","weight":2},{"qq":"1004834","weight":2},{"qq":"1004835","weight":3},{"qq":"1004836","weight":3},{"qq":"1004837","weight":1},{"qq":"1004841","weight":1},{"qq":"1004843","weight":3},{"qq":"1004844","weight":1},{"qq":"1004847","weight":2},{"qq":"1004848","weight":2},{"qq":"1004850","weight":2},{"qq":"1004855","weight":2},{"qq":"1004856","weight":2},{"qq":"1004858","weight":1},{"qq":"1004860","weight":2},{"qq":"1004861","weight":2},{"qq":"1004864","weight":2},{"qq":"1004868","weight":3},{"qq":"1004872","weight":2},{"qq":"1004875","weight":2},{"qq":"1004876","weight":2},{"qq":"1004878","weight":3},{"qq":"1004880","weight":1},{"qq":"1004881","weight":2},{"qq":"1004882","weight":2},{"qq":"1004883","weight":2},{"qq":"1004884","weight":2},{"qq":"1004885","weight":2},{"qq":"1004886","weight":2},{"qq":"1004887","weight":2},{"qq":"1004888","weight":2},{"qq":"1004889","weight":2},{"qq":"1004890","weight":2},{"qq":"1004891","weight":2},{"qq":"1004893","weight":3},{"qq":"1004896","weight":2},{"qq":"1004904","weight":2},{"qq":"1004908","weight":2},{"qq":"1004910","weight":2},{"qq":"1004914","weight":1},{"qq":"1004915","weight":3},{"qq":"1004919","weight":1},{"qq":"1004921","weight":2},{"qq":"1004925","weight":2},{"qq":"1004926","weight":1},{"qq":"1004930","weight":3},{"qq":"1004931","weight":2},{"qq":"1004933","weight":1},{"qq":"1004936","weight":2},{"qq":"1004938","weight":2},{"qq":"1004940","weight":1},{"qq":"1004944","weight":1}]}
+
+2014-10-26 02:02:26 -INFO- upload respone:
+
+
+2014-10-26 02:02:26 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:02:26 -DEBUG- got 200 numbers
+2014-10-26 02:02:26 -DEBUG- start lazy join
+2014-10-26 02:02:59 -DEBUG- end lazy join
+2014-10-26 02:02:59 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:02:59 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1004950","weight":3},{"qq":"1004952","weight":1},{"qq":"1004958","weight":3},{"qq":"1004960","weight":2},{"qq":"1004961","weight":2},{"qq":"1004970","weight":3},{"qq":"1004972","weight":2},{"qq":"1004974","weight":2},{"qq":"1004975","weight":1},{"qq":"1004978","weight":2},{"qq":"1004979","weight":2},{"qq":"1004980","weight":1},{"qq":"1004987","weight":2},{"qq":"1004988","weight":1},{"qq":"1004990","weight":2},{"qq":"1004993","weight":3},{"qq":"1004994","weight":1},{"qq":"1004999","weight":2},{"qq":"1005000","weight":2},{"qq":"1005001","weight":2},{"qq":"1005002","weight":2},{"qq":"1005004","weight":3},{"qq":"1005008","weight":2},{"qq":"1005009","weight":3},{"qq":"1005011","weight":3},{"qq":"1005015","weight":3},{"qq":"1005016","weight":2},{"qq":"1005018","weight":2},{"qq":"1005019","weight":2},{"qq":"1005020","weight":1},{"qq":"1005021","weight":2},{"qq":"1005022","weight":2},{"qq":"1005023","weight":2},{"qq":"1005024","weight":2},{"qq":"1005026","weight":3},{"qq":"1005028","weight":2},{"qq":"1005029","weight":2},{"qq":"1005031","weight":3},{"qq":"1005033","weight":2},{"qq":"1005034","weight":2},{"qq":"1005037","weight":3},{"qq":"1005038","weight":2},{"qq":"1005042","weight":2},{"qq":"1005044","weight":2},{"qq":"1005045","weight":2},{"qq":"1005047","weight":3},{"qq":"1005049","weight":2},{"qq":"1005050","weight":2},{"qq":"1005052","weight":2},{"qq":"1005055","weight":2},{"qq":"1005056","weight":2},{"qq":"1005059","weight":1},{"qq":"1005067","weight":2},{"qq":"1005069","weight":1},{"qq":"1005070","weight":3},{"qq":"1005071","weight":2},{"qq":"1005072","weight":2},{"qq":"1005073","weight":2},{"qq":"1005074","weight":2},{"qq":"1005075","weight":2},{"qq":"1005077","weight":2},{"qq":"1005080","weight":3},{"qq":"1005083","weight":2},{"qq":"1005085","weight":3},{"qq":"1005086","weight":2},{"qq":"1005089","weight":2},{"qq":"1005090","weight":2},{"qq":"1005091","weight":1},{"qq":"1005092","weight":2},{"qq":"1005095","weight":1},{"qq":"1005097","weight":3},{"qq":"1005098","weight":2},{"qq":"1005099","weight":2},{"qq":"1005100","weight":2},{"qq":"1005102","weight":2},{"qq":"1005103","weight":2},{"qq":"1005105","weight":3},{"qq":"1005106","weight":2},{"qq":"1005107","weight":2},{"qq":"1005109","weight":2},{"qq":"1005110","weight":2},{"qq":"1005112","weight":3},{"qq":"1005114","weight":2},{"qq":"1005115","weight":2},{"qq":"1005117","weight":3},{"qq":"1005118","weight":3},{"qq":"1005119","weight":2},{"qq":"1005120","weight":2},{"qq":"1005122","weight":3},{"qq":"1005126","weight":2},{"qq":"1005127","weight":2},{"qq":"1005130","weight":2},{"qq":"1005133","weight":2},{"qq":"1005134","weight":1},{"qq":"1005135","weight":2},{"qq":"1005137","weight":2},{"qq":"1005138","weight":2},{"qq":"1005139","weight":2},{"qq":"1005142","weight":1},{"qq":"1005145","weight":3},{"qq":"1005146","weight":2},{"qq":"1005147","weight":3},{"qq":"1005148","weight":2},{"qq":"1005149","weight":2}]}
+
+2014-10-26 02:02:59 -INFO- upload respone:
+
+
+2014-10-26 02:02:59 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:02:59 -DEBUG- got 200 numbers
+2014-10-26 02:02:59 -DEBUG- start lazy join
+2014-10-26 02:03:34 -DEBUG- end lazy join
+2014-10-26 02:03:34 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:03:34 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1005151","weight":1},{"qq":"1005152","weight":3},{"qq":"1005153","weight":1},{"qq":"1005155","weight":2},{"qq":"1005157","weight":1},{"qq":"1005158","weight":1},{"qq":"1005159","weight":2},{"qq":"1005165","weight":2},{"qq":"1005168","weight":2},{"qq":"1005169","weight":2},{"qq":"1005171","weight":2},{"qq":"1005173","weight":2},{"qq":"1005180","weight":2},{"qq":"1005181","weight":2},{"qq":"1005185","weight":2},{"qq":"1005186","weight":1},{"qq":"1005188","weight":2},{"qq":"1005189","weight":2},{"qq":"1005190","weight":2},{"qq":"1005194","weight":2},{"qq":"1005196","weight":3},{"qq":"1005200","weight":2},{"qq":"1005202","weight":2},{"qq":"1005204","weight":2},{"qq":"1005205","weight":1},{"qq":"1005208","weight":1},{"qq":"1005209","weight":2},{"qq":"1005210","weight":2},{"qq":"1005211","weight":2},{"qq":"1005212","weight":2},{"qq":"1005214","weight":2},{"qq":"1005218","weight":2},{"qq":"1005220","weight":1},{"qq":"1005221","weight":2},{"qq":"1005223","weight":3},{"qq":"1005224","weight":2},{"qq":"1005225","weight":2},{"qq":"1005226","weight":2},{"qq":"1005227","weight":2},{"qq":"1005228","weight":2},{"qq":"1005234","weight":2},{"qq":"1005237","weight":2},{"qq":"1005238","weight":2},{"qq":"1005240","weight":2},{"qq":"1005241","weight":2},{"qq":"1005245","weight":2},{"qq":"1005246","weight":2},{"qq":"1005248","weight":3},{"qq":"1005249","weight":2},{"qq":"1005251","weight":2},{"qq":"1005252","weight":2},{"qq":"1005253","weight":2},{"qq":"1005255","weight":2},{"qq":"1005256","weight":2},{"qq":"1005257","weight":2},{"qq":"1005259","weight":2},{"qq":"1005260","weight":3},{"qq":"1005262","weight":1},{"qq":"1005266","weight":2},{"qq":"1005267","weight":2},{"qq":"1005268","weight":1},{"qq":"1005272","weight":2},{"qq":"1005273","weight":2},{"qq":"1005275","weight":1},{"qq":"1005282","weight":2},{"qq":"1005284","weight":2},{"qq":"1005285","weight":2},{"qq":"1005286","weight":2},{"qq":"1005287","weight":1},{"qq":"1005288","weight":2},{"qq":"1005289","weight":2},{"qq":"1005291","weight":2},{"qq":"1005292","weight":2},{"qq":"1005296","weight":2},{"qq":"1005299","weight":1},{"qq":"1005301","weight":1},{"qq":"1005302","weight":3},{"qq":"1005303","weight":2},{"qq":"1005304","weight":2},{"qq":"1005309","weight":1},{"qq":"1005310","weight":2},{"qq":"1005313","weight":3},{"qq":"1005314","weight":2},{"qq":"1005315","weight":1},{"qq":"1005320","weight":2},{"qq":"1005321","weight":2},{"qq":"1005322","weight":2},{"qq":"1005325","weight":3},{"qq":"1005326","weight":1},{"qq":"1005329","weight":2},{"qq":"1005331","weight":2},{"qq":"1005332","weight":2},{"qq":"1005333","weight":1},{"qq":"1005335","weight":2},{"qq":"1005336","weight":2},{"qq":"1005337","weight":2},{"qq":"1005338","weight":3},{"qq":"1005339","weight":3},{"qq":"1005343","weight":2},{"qq":"1005345","weight":2},{"qq":"1005347","weight":3},{"qq":"1005349","weight":2}]}
+
+2014-10-26 02:03:35 -INFO- upload respone:
+
+
+2014-10-26 02:03:35 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:03:35 -DEBUG- got 200 numbers
+2014-10-26 02:03:35 -DEBUG- start lazy join
+2014-10-26 02:04:11 -DEBUG- end lazy join
+2014-10-26 02:04:11 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:04:11 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1005350","weight":2},{"qq":"1005353","weight":1},{"qq":"1005354","weight":1},{"qq":"1005356","weight":2},{"qq":"1005357","weight":3},{"qq":"1005358","weight":3},{"qq":"1005362","weight":2},{"qq":"1005364","weight":2},{"qq":"1005365","weight":3},{"qq":"1005367","weight":1},{"qq":"1005368","weight":3},{"qq":"1005369","weight":1},{"qq":"1005377","weight":2},{"qq":"1005380","weight":2},{"qq":"1005381","weight":1},{"qq":"1005386","weight":1},{"qq":"1005388","weight":2},{"qq":"1005393","weight":1},{"qq":"1005395","weight":2},{"qq":"1005396","weight":2},{"qq":"1005401","weight":2},{"qq":"1005404","weight":2},{"qq":"1005405","weight":2},{"qq":"1005406","weight":1},{"qq":"1005410","weight":2},{"qq":"1005412","weight":2},{"qq":"1005414","weight":2},{"qq":"1005418","weight":2},{"qq":"1005419","weight":2},{"qq":"1005427","weight":2},{"qq":"1005428","weight":2},{"qq":"1005432","weight":2},{"qq":"1005437","weight":3},{"qq":"1005438","weight":2},{"qq":"1005440","weight":1},{"qq":"1005444","weight":2},{"qq":"1005445","weight":2},{"qq":"1005449","weight":3},{"qq":"1005452","weight":2},{"qq":"1005454","weight":1},{"qq":"1005457","weight":2},{"qq":"1005459","weight":2},{"qq":"1005461","weight":3},{"qq":"1005462","weight":2},{"qq":"1005464","weight":2},{"qq":"1005466","weight":2},{"qq":"1005467","weight":2},{"qq":"1005468","weight":2},{"qq":"1005469","weight":2},{"qq":"1005471","weight":2},{"qq":"1005473","weight":2},{"qq":"1005474","weight":2},{"qq":"1005477","weight":2},{"qq":"1005478","weight":2},{"qq":"1005479","weight":2},{"qq":"1005483","weight":2},{"qq":"1005485","weight":3},{"qq":"1005487","weight":2},{"qq":"1005488","weight":1},{"qq":"1005490","weight":3},{"qq":"1005491","weight":2},{"qq":"1005493","weight":2},{"qq":"1005497","weight":2},{"qq":"1005498","weight":2},{"qq":"1005501","weight":2},{"qq":"1005504","weight":2},{"qq":"1005505","weight":1},{"qq":"1005508","weight":2},{"qq":"1005509","weight":2},{"qq":"1005512","weight":2},{"qq":"1005515","weight":2},{"qq":"1005517","weight":2},{"qq":"1005518","weight":2},{"qq":"1005521","weight":2},{"qq":"1005526","weight":1},{"qq":"1005528","weight":3},{"qq":"1005529","weight":2},{"qq":"1005532","weight":1},{"qq":"1005536","weight":2},{"qq":"1005537","weight":2},{"qq":"1005538","weight":1},{"qq":"1005540","weight":2},{"qq":"1005544","weight":1},{"qq":"1005545","weight":2},{"qq":"1005546","weight":2},{"qq":"1005547","weight":1},{"qq":"1005549","weight":2}]}
+
+2014-10-26 02:04:11 -INFO- upload respone:
+
+
+2014-10-26 02:04:11 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:04:11 -DEBUG- got 200 numbers
+2014-10-26 02:04:11 -DEBUG- start lazy join
+2014-10-26 02:04:46 -DEBUG- end lazy join
+2014-10-26 02:04:46 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:04:46 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1005551","weight":1},{"qq":"1005552","weight":2},{"qq":"1005557","weight":2},{"qq":"1005559","weight":1},{"qq":"1005560","weight":3},{"qq":"1005565","weight":2},{"qq":"1005571","weight":1},{"qq":"1005575","weight":2},{"qq":"1005577","weight":2},{"qq":"1005579","weight":1},{"qq":"1005581","weight":2},{"qq":"1005584","weight":1},{"qq":"1005585","weight":1},{"qq":"1005586","weight":2},{"qq":"1005587","weight":2},{"qq":"1005588","weight":2},{"qq":"1005590","weight":3},{"qq":"1005595","weight":2},{"qq":"1005596","weight":1},{"qq":"1005598","weight":2},{"qq":"1005600","weight":2},{"qq":"1005601","weight":2},{"qq":"1005605","weight":3},{"qq":"1005607","weight":2},{"qq":"1005608","weight":2},{"qq":"1005609","weight":2},{"qq":"1005611","weight":2},{"qq":"1005614","weight":2},{"qq":"1005618","weight":1},{"qq":"1005620","weight":2},{"qq":"1005621","weight":2},{"qq":"1005622","weight":3},{"qq":"1005624","weight":2},{"qq":"1005626","weight":1},{"qq":"1005630","weight":2},{"qq":"1005631","weight":2},{"qq":"1005632","weight":1},{"qq":"1005635","weight":2},{"qq":"1005636","weight":1},{"qq":"1005637","weight":2},{"qq":"1005640","weight":3},{"qq":"1005644","weight":2},{"qq":"1005646","weight":2},{"qq":"1005647","weight":2},{"qq":"1005651","weight":1},{"qq":"1005653","weight":2},{"qq":"1005654","weight":2},{"qq":"1005655","weight":2},{"qq":"1005656","weight":2},{"qq":"1005657","weight":2},{"qq":"1005661","weight":1},{"qq":"1005662","weight":1},{"qq":"1005668","weight":2},{"qq":"1005672","weight":2},{"qq":"1005673","weight":2},{"qq":"1005674","weight":3},{"qq":"1005675","weight":2},{"qq":"1005677","weight":1},{"qq":"1005682","weight":2},{"qq":"1005683","weight":3},{"qq":"1005687","weight":2},{"qq":"1005688","weight":2},{"qq":"1005689","weight":3},{"qq":"1005691","weight":2},{"qq":"1005694","weight":2},{"qq":"1005695","weight":2},{"qq":"1005697","weight":1},{"qq":"1005698","weight":1},{"qq":"1005701","weight":3},{"qq":"1005702","weight":1},{"qq":"1005703","weight":1},{"qq":"1005704","weight":3},{"qq":"1005706","weight":2},{"qq":"1005707","weight":1},{"qq":"1005708","weight":1},{"qq":"1005710","weight":3},{"qq":"1005712","weight":3},{"qq":"1005713","weight":2},{"qq":"1005714","weight":2},{"qq":"1005715","weight":2},{"qq":"1005720","weight":2},{"qq":"1005721","weight":2},{"qq":"1005725","weight":2},{"qq":"1005728","weight":1},{"qq":"1005729","weight":2},{"qq":"1005735","weight":2},{"qq":"1005736","weight":2},{"qq":"1005737","weight":3},{"qq":"1005738","weight":2},{"qq":"1005739","weight":2},{"qq":"1005742","weight":1},{"qq":"1005743","weight":2},{"qq":"1005744","weight":1},{"qq":"1005745","weight":2},{"qq":"1005746","weight":1}]}
+
+2014-10-26 02:04:47 -INFO- upload respone:
+
+
+2014-10-26 02:04:47 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:04:47 -DEBUG- got 200 numbers
+2014-10-26 02:04:47 -DEBUG- start lazy join
+2014-10-26 02:05:19 -DEBUG- end lazy join
+2014-10-26 02:05:19 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:05:19 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1005750","weight":2},{"qq":"1005757","weight":1},{"qq":"1005758","weight":1},{"qq":"1005759","weight":2},{"qq":"1005761","weight":3},{"qq":"1005763","weight":3},{"qq":"1005765","weight":2},{"qq":"1005766","weight":2},{"qq":"1005767","weight":3},{"qq":"1005768","weight":2},{"qq":"1005769","weight":3},{"qq":"1005771","weight":2},{"qq":"1005772","weight":2},{"qq":"1005775","weight":1},{"qq":"1005778","weight":2},{"qq":"1005779","weight":2},{"qq":"1005780","weight":1},{"qq":"1005781","weight":1},{"qq":"1005782","weight":2},{"qq":"1005786","weight":1},{"qq":"1005787","weight":1},{"qq":"1005788","weight":3},{"qq":"1005789","weight":2},{"qq":"1005790","weight":2},{"qq":"1005792","weight":1},{"qq":"1005795","weight":2},{"qq":"1005796","weight":2},{"qq":"1005799","weight":3},{"qq":"1005800","weight":2},{"qq":"1005801","weight":2},{"qq":"1005802","weight":2},{"qq":"1005803","weight":2},{"qq":"1005806","weight":2},{"qq":"1005807","weight":2},{"qq":"1005808","weight":2},{"qq":"1005809","weight":2},{"qq":"1005811","weight":1},{"qq":"1005812","weight":2},{"qq":"1005813","weight":2},{"qq":"1005815","weight":2},{"qq":"1005816","weight":2},{"qq":"1005819","weight":2},{"qq":"1005820","weight":2},{"qq":"1005822","weight":1},{"qq":"1005824","weight":1},{"qq":"1005825","weight":2},{"qq":"1005826","weight":2},{"qq":"1005830","weight":3},{"qq":"1005832","weight":2},{"qq":"1005833","weight":2},{"qq":"1005834","weight":3},{"qq":"1005836","weight":1},{"qq":"1005837","weight":2},{"qq":"1005840","weight":2},{"qq":"1005842","weight":1},{"qq":"1005848","weight":2},{"qq":"1005856","weight":2},{"qq":"1005857","weight":2},{"qq":"1005858","weight":2},{"qq":"1005859","weight":2},{"qq":"1005860","weight":2},{"qq":"1005864","weight":2},{"qq":"1005865","weight":2},{"qq":"1005866","weight":2},{"qq":"1005871","weight":2},{"qq":"1005878","weight":2},{"qq":"1005882","weight":2},{"qq":"1005884","weight":3},{"qq":"1005885","weight":2},{"qq":"1005886","weight":2},{"qq":"1005889","weight":1},{"qq":"1005890","weight":2},{"qq":"1005893","weight":2},{"qq":"1005894","weight":2},{"qq":"1005895","weight":2},{"qq":"1005896","weight":2},{"qq":"1005900","weight":2},{"qq":"1005904","weight":1},{"qq":"1005908","weight":2},{"qq":"1005910","weight":2},{"qq":"1005911","weight":2},{"qq":"1005916","weight":3},{"qq":"1005919","weight":2},{"qq":"1005924","weight":2},{"qq":"1005925","weight":1},{"qq":"1005930","weight":1},{"qq":"1005932","weight":3},{"qq":"1005933","weight":2},{"qq":"1005934","weight":2},{"qq":"1005935","weight":3},{"qq":"1005939","weight":2},{"qq":"1005940","weight":1},{"qq":"1005941","weight":1},{"qq":"1005945","weight":1},{"qq":"1005947","weight":3},{"qq":"1005949","weight":2}]}
+
+2014-10-26 02:05:20 -INFO- upload respone:
+
+
+2014-10-26 02:05:20 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:05:20 -DEBUG- got 200 numbers
+2014-10-26 02:05:20 -DEBUG- start lazy join
+2014-10-26 02:05:56 -DEBUG- end lazy join
+2014-10-26 02:05:56 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:05:56 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1005950","weight":2},{"qq":"1005951","weight":2},{"qq":"1005952","weight":2},{"qq":"1005955","weight":1},{"qq":"1005959","weight":2},{"qq":"1005962","weight":3},{"qq":"1005963","weight":2},{"qq":"1005965","weight":2},{"qq":"1005966","weight":3},{"qq":"1005967","weight":2},{"qq":"1005970","weight":1},{"qq":"1005971","weight":2},{"qq":"1005973","weight":2},{"qq":"1005974","weight":2},{"qq":"1005975","weight":2},{"qq":"1005980","weight":2},{"qq":"1005981","weight":2},{"qq":"1005986","weight":2},{"qq":"1005993","weight":2},{"qq":"1005994","weight":2},{"qq":"1005995","weight":2},{"qq":"1005996","weight":2},{"qq":"1005998","weight":1},{"qq":"1006000","weight":1},{"qq":"1006001","weight":2},{"qq":"1006002","weight":2},{"qq":"1006004","weight":3},{"qq":"1006005","weight":2},{"qq":"1006007","weight":1},{"qq":"1006008","weight":2},{"qq":"1006012","weight":2},{"qq":"1006016","weight":2},{"qq":"1006019","weight":2},{"qq":"1006021","weight":2},{"qq":"1006022","weight":1},{"qq":"1006024","weight":2},{"qq":"1006025","weight":2},{"qq":"1006027","weight":2},{"qq":"1006029","weight":2},{"qq":"1006030","weight":2},{"qq":"1006035","weight":2},{"qq":"1006036","weight":2},{"qq":"1006039","weight":3},{"qq":"1006040","weight":3},{"qq":"1006043","weight":2},{"qq":"1006045","weight":2},{"qq":"1006047","weight":2},{"qq":"1006048","weight":2},{"qq":"1006050","weight":3},{"qq":"1006052","weight":2},{"qq":"1006056","weight":2},{"qq":"1006057","weight":1},{"qq":"1006058","weight":2},{"qq":"1006063","weight":2},{"qq":"1006064","weight":2},{"qq":"1006068","weight":2},{"qq":"1006069","weight":2},{"qq":"1006070","weight":3},{"qq":"1006071","weight":2},{"qq":"1006073","weight":2},{"qq":"1006074","weight":3},{"qq":"1006079","weight":2},{"qq":"1006080","weight":2},{"qq":"1006082","weight":2},{"qq":"1006084","weight":1},{"qq":"1006087","weight":2},{"qq":"1006089","weight":2},{"qq":"1006090","weight":2},{"qq":"1006091","weight":2},{"qq":"1006092","weight":2},{"qq":"1006093","weight":1},{"qq":"1006094","weight":1},{"qq":"1006095","weight":1},{"qq":"1006096","weight":2},{"qq":"1006098","weight":2},{"qq":"1006101","weight":1},{"qq":"1006103","weight":3},{"qq":"1006106","weight":2},{"qq":"1006107","weight":2},{"qq":"1006109","weight":2},{"qq":"1006110","weight":3},{"qq":"1006111","weight":2},{"qq":"1006112","weight":1},{"qq":"1006117","weight":2},{"qq":"1006118","weight":2},{"qq":"1006120","weight":2},{"qq":"1006122","weight":2},{"qq":"1006125","weight":2},{"qq":"1006128","weight":3},{"qq":"1006132","weight":1},{"qq":"1006133","weight":2},{"qq":"1006136","weight":2},{"qq":"1006137","weight":3},{"qq":"1006140","weight":1},{"qq":"1006144","weight":1}]}
+
+2014-10-26 02:05:57 -INFO- upload respone:
+
+
+2014-10-26 02:05:57 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:05:57 -DEBUG- got 200 numbers
+2014-10-26 02:05:57 -DEBUG- start lazy join
+2014-10-26 02:06:29 -DEBUG- end lazy join
+2014-10-26 02:06:29 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:06:29 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1006150","weight":2},{"qq":"1006152","weight":3},{"qq":"1006157","weight":2},{"qq":"1006160","weight":3},{"qq":"1006161","weight":2},{"qq":"1006162","weight":1},{"qq":"1006163","weight":1},{"qq":"1006166","weight":2},{"qq":"1006167","weight":2},{"qq":"1006168","weight":1},{"qq":"1006170","weight":3},{"qq":"1006179","weight":2},{"qq":"1006180","weight":2},{"qq":"1006181","weight":1},{"qq":"1006183","weight":1},{"qq":"1006184","weight":2},{"qq":"1006188","weight":3},{"qq":"1006189","weight":1},{"qq":"1006190","weight":1},{"qq":"1006202","weight":2},{"qq":"1006204","weight":1},{"qq":"1006209","weight":2},{"qq":"1006210","weight":1},{"qq":"1006211","weight":2},{"qq":"1006214","weight":1},{"qq":"1006216","weight":2},{"qq":"1006217","weight":2},{"qq":"1006221","weight":2},{"qq":"1006222","weight":3},{"qq":"1006223","weight":3},{"qq":"1006225","weight":2},{"qq":"1006226","weight":2},{"qq":"1006229","weight":1},{"qq":"1006231","weight":2},{"qq":"1006234","weight":2},{"qq":"1006237","weight":2},{"qq":"1006242","weight":2},{"qq":"1006243","weight":2},{"qq":"1006247","weight":2},{"qq":"1006251","weight":2},{"qq":"1006253","weight":2},{"qq":"1006254","weight":3},{"qq":"1006259","weight":2},{"qq":"1006260","weight":2},{"qq":"1006261","weight":2},{"qq":"1006262","weight":1},{"qq":"1006264","weight":2},{"qq":"1006265","weight":3},{"qq":"1006266","weight":2},{"qq":"1006269","weight":1},{"qq":"1006272","weight":2},{"qq":"1006276","weight":2},{"qq":"1006277","weight":2},{"qq":"1006288","weight":1},{"qq":"1006289","weight":1},{"qq":"1006292","weight":1},{"qq":"1006295","weight":2},{"qq":"1006296","weight":1},{"qq":"1006297","weight":2},{"qq":"1006300","weight":2},{"qq":"1006301","weight":1},{"qq":"1006302","weight":2},{"qq":"1006303","weight":2},{"qq":"1006305","weight":1},{"qq":"1006306","weight":1},{"qq":"1006307","weight":2},{"qq":"1006308","weight":1},{"qq":"1006309","weight":2},{"qq":"1006310","weight":2},{"qq":"1006314","weight":2},{"qq":"1006318","weight":2},{"qq":"1006321","weight":1},{"qq":"1006322","weight":2},{"qq":"1006325","weight":1},{"qq":"1006326","weight":2},{"qq":"1006327","weight":2},{"qq":"1006328","weight":1},{"qq":"1006330","weight":2},{"qq":"1006331","weight":2},{"qq":"1006334","weight":2},{"qq":"1006338","weight":2},{"qq":"1006343","weight":1},{"qq":"1006346","weight":2},{"qq":"1006347","weight":3},{"qq":"1006348","weight":1}]}
+
+2014-10-26 02:06:29 -INFO- upload respone:
+
+
+2014-10-26 02:06:29 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:06:29 -DEBUG- got 200 numbers
+2014-10-26 02:06:29 -DEBUG- start lazy join
+2014-10-26 02:06:58 -DEBUG- end lazy join
+2014-10-26 02:06:58 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:06:58 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1006350","weight":2},{"qq":"1006351","weight":1},{"qq":"1006353","weight":1},{"qq":"1006358","weight":2},{"qq":"1006359","weight":3},{"qq":"1006361","weight":2},{"qq":"1006362","weight":2},{"qq":"1006364","weight":1},{"qq":"1006368","weight":3},{"qq":"1006377","weight":2},{"qq":"1006380","weight":2},{"qq":"1006381","weight":2},{"qq":"1006385","weight":1},{"qq":"1006386","weight":2},{"qq":"1006388","weight":2},{"qq":"1006389","weight":3},{"qq":"1006390","weight":1},{"qq":"1006391","weight":1},{"qq":"1006394","weight":2},{"qq":"1006400","weight":2},{"qq":"1006401","weight":2},{"qq":"1006405","weight":3},{"qq":"1006408","weight":2},{"qq":"1006410","weight":2},{"qq":"1006411","weight":2},{"qq":"1006412","weight":2},{"qq":"1006419","weight":2},{"qq":"1006420","weight":2},{"qq":"1006427","weight":2},{"qq":"1006429","weight":2},{"qq":"1006432","weight":2},{"qq":"1006436","weight":2},{"qq":"1006437","weight":2},{"qq":"1006439","weight":3},{"qq":"1006440","weight":1},{"qq":"1006444","weight":1},{"qq":"1006450","weight":1},{"qq":"1006451","weight":1},{"qq":"1006453","weight":1},{"qq":"1006456","weight":2},{"qq":"1006457","weight":2},{"qq":"1006459","weight":2},{"qq":"1006460","weight":2},{"qq":"1006461","weight":1},{"qq":"1006462","weight":3},{"qq":"1006463","weight":2},{"qq":"1006464","weight":3},{"qq":"1006465","weight":1},{"qq":"1006466","weight":2},{"qq":"1006469","weight":2},{"qq":"1006474","weight":2},{"qq":"1006475","weight":2},{"qq":"1006477","weight":2},{"qq":"1006478","weight":2},{"qq":"1006480","weight":3},{"qq":"1006489","weight":2},{"qq":"1006490","weight":3},{"qq":"1006496","weight":3},{"qq":"1006498","weight":1},{"qq":"1006500","weight":2},{"qq":"1006501","weight":2},{"qq":"1006502","weight":1},{"qq":"1006503","weight":3},{"qq":"1006504","weight":3},{"qq":"1006506","weight":1},{"qq":"1006507","weight":2},{"qq":"1006509","weight":1},{"qq":"1006511","weight":3},{"qq":"1006514","weight":2},{"qq":"1006516","weight":2},{"qq":"1006517","weight":1},{"qq":"1006520","weight":3},{"qq":"1006522","weight":2},{"qq":"1006523","weight":2},{"qq":"1006524","weight":2},{"qq":"1006526","weight":2},{"qq":"1006527","weight":1},{"qq":"1006529","weight":1},{"qq":"1006530","weight":3},{"qq":"1006531","weight":2},{"qq":"1006532","weight":3},{"qq":"1006533","weight":3},{"qq":"1006536","weight":2},{"qq":"1006545","weight":2},{"qq":"1006548","weight":2}]}
+
+2014-10-26 02:06:58 -INFO- upload respone:
+
+
+2014-10-26 02:06:58 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:06:59 -DEBUG- got 200 numbers
+2014-10-26 02:06:59 -DEBUG- start lazy join
+2014-10-26 02:07:29 -DEBUG- end lazy join
+2014-10-26 02:07:29 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:07:29 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1006550","weight":2},{"qq":"1006552","weight":2},{"qq":"1006553","weight":2},{"qq":"1006555","weight":2},{"qq":"1006556","weight":3},{"qq":"1006559","weight":2},{"qq":"1006560","weight":1},{"qq":"1006565","weight":2},{"qq":"1006566","weight":1},{"qq":"1006569","weight":1},{"qq":"1006571","weight":2},{"qq":"1006576","weight":2},{"qq":"1006578","weight":2},{"qq":"1006579","weight":1},{"qq":"1006582","weight":2},{"qq":"1006583","weight":2},{"qq":"1006585","weight":2},{"qq":"1006589","weight":2},{"qq":"1006595","weight":2},{"qq":"1006596","weight":1},{"qq":"1006598","weight":2},{"qq":"1006599","weight":2},{"qq":"1006600","weight":2},{"qq":"1006601","weight":2},{"qq":"1006603","weight":2},{"qq":"1006604","weight":2},{"qq":"1006606","weight":3},{"qq":"1006607","weight":2},{"qq":"1006612","weight":2},{"qq":"1006613","weight":2},{"qq":"1006614","weight":2},{"qq":"1006615","weight":1},{"qq":"1006616","weight":3},{"qq":"1006618","weight":2},{"qq":"1006621","weight":2},{"qq":"1006622","weight":2},{"qq":"1006624","weight":2},{"qq":"1006626","weight":2},{"qq":"1006627","weight":2},{"qq":"1006632","weight":2},{"qq":"1006634","weight":2},{"qq":"1006635","weight":1},{"qq":"1006636","weight":3},{"qq":"1006637","weight":1},{"qq":"1006639","weight":2},{"qq":"1006640","weight":2},{"qq":"1006641","weight":1},{"qq":"1006643","weight":3},{"qq":"1006644","weight":2},{"qq":"1006645","weight":2},{"qq":"1006646","weight":1},{"qq":"1006651","weight":2},{"qq":"1006656","weight":2},{"qq":"1006659","weight":2},{"qq":"1006661","weight":2},{"qq":"1006665","weight":2},{"qq":"1006667","weight":2},{"qq":"1006672","weight":3},{"qq":"1006673","weight":2},{"qq":"1006675","weight":2},{"qq":"1006679","weight":2},{"qq":"1006680","weight":1},{"qq":"1006682","weight":2},{"qq":"1006683","weight":2},{"qq":"1006686","weight":1},{"qq":"1006688","weight":1},{"qq":"1006697","weight":2},{"qq":"1006699","weight":2},{"qq":"1006700","weight":2},{"qq":"1006702","weight":2},{"qq":"1006705","weight":3},{"qq":"1006708","weight":2},{"qq":"1006711","weight":2},{"qq":"1006712","weight":2},{"qq":"1006713","weight":2},{"qq":"1006715","weight":3},{"qq":"1006717","weight":2},{"qq":"1006718","weight":2},{"qq":"1006719","weight":2},{"qq":"1006720","weight":2},{"qq":"1006721","weight":3},{"qq":"1006724","weight":3},{"qq":"1006729","weight":1},{"qq":"1006730","weight":2},{"qq":"1006734","weight":3},{"qq":"1006736","weight":2},{"qq":"1006739","weight":2},{"qq":"1006740","weight":2},{"qq":"1006742","weight":2},{"qq":"1006744","weight":2},{"qq":"1006747","weight":2},{"qq":"1006748","weight":1}]}
+
+2014-10-26 02:07:29 -INFO- upload respone:
+
+
+2014-10-26 02:07:29 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:07:29 -DEBUG- got 200 numbers
+2014-10-26 02:07:29 -DEBUG- start lazy join
+2014-10-26 02:08:01 -DEBUG- end lazy join
+2014-10-26 02:08:01 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:08:01 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1006750","weight":2},{"qq":"1006751","weight":2},{"qq":"1006753","weight":2},{"qq":"1006755","weight":2},{"qq":"1006757","weight":2},{"qq":"1006760","weight":2},{"qq":"1006761","weight":2},{"qq":"1006762","weight":2},{"qq":"1006763","weight":2},{"qq":"1006769","weight":1},{"qq":"1006771","weight":2},{"qq":"1006773","weight":2},{"qq":"1006774","weight":3},{"qq":"1006777","weight":1},{"qq":"1006778","weight":2},{"qq":"1006779","weight":1},{"qq":"1006780","weight":2},{"qq":"1006782","weight":1},{"qq":"1006785","weight":2},{"qq":"1006787","weight":2},{"qq":"1006788","weight":3},{"qq":"1006789","weight":2},{"qq":"1006791","weight":2},{"qq":"1006792","weight":2},{"qq":"1006794","weight":2},{"qq":"1006795","weight":2},{"qq":"1006798","weight":2},{"qq":"1006799","weight":1},{"qq":"1006800","weight":2},{"qq":"1006801","weight":2},{"qq":"1006803","weight":1},{"qq":"1006806","weight":2},{"qq":"1006809","weight":1},{"qq":"1006810","weight":1},{"qq":"1006811","weight":2},{"qq":"1006812","weight":2},{"qq":"1006815","weight":2},{"qq":"1006817","weight":2},{"qq":"1006818","weight":2},{"qq":"1006819","weight":2},{"qq":"1006821","weight":2},{"qq":"1006822","weight":2},{"qq":"1006824","weight":2},{"qq":"1006830","weight":2},{"qq":"1006831","weight":2},{"qq":"1006832","weight":2},{"qq":"1006834","weight":2},{"qq":"1006835","weight":2},{"qq":"1006838","weight":2},{"qq":"1006839","weight":1},{"qq":"1006843","weight":3},{"qq":"1006844","weight":1},{"qq":"1006849","weight":2},{"qq":"1006850","weight":2},{"qq":"1006854","weight":3},{"qq":"1006855","weight":2},{"qq":"1006856","weight":2},{"qq":"1006858","weight":3},{"qq":"1006860","weight":2},{"qq":"1006862","weight":1},{"qq":"1006866","weight":3},{"qq":"1006868","weight":2},{"qq":"1006869","weight":3},{"qq":"1006870","weight":1},{"qq":"1006871","weight":2},{"qq":"1006872","weight":2},{"qq":"1006874","weight":1},{"qq":"1006876","weight":2},{"qq":"1006877","weight":1},{"qq":"1006879","weight":2},{"qq":"1006880","weight":2},{"qq":"1006884","weight":2},{"qq":"1006885","weight":1},{"qq":"1006887","weight":2},{"qq":"1006888","weight":2},{"qq":"1006890","weight":1},{"qq":"1006897","weight":2},{"qq":"1006899","weight":1},{"qq":"1006901","weight":2},{"qq":"1006905","weight":3},{"qq":"1006909","weight":3},{"qq":"1006911","weight":1},{"qq":"1006913","weight":2},{"qq":"1006914","weight":1},{"qq":"1006916","weight":1},{"qq":"1006918","weight":1},{"qq":"1006922","weight":2},{"qq":"1006923","weight":2},{"qq":"1006930","weight":1},{"qq":"1006931","weight":2},{"qq":"1006932","weight":2},{"qq":"1006934","weight":2},{"qq":"1006938","weight":2},{"qq":"1006939","weight":2},{"qq":"1006941","weight":2},{"qq":"1006942","weight":1},{"qq":"1006947","weight":2},{"qq":"1006948","weight":3},{"qq":"1006949","weight":2}]}
+
+2014-10-26 02:08:01 -INFO- upload respone:
+
+
+2014-10-26 02:08:01 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:08:01 -DEBUG- got 200 numbers
+2014-10-26 02:08:01 -DEBUG- start lazy join
+2014-10-26 02:08:35 -DEBUG- end lazy join
+2014-10-26 02:08:35 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:08:35 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1006950","weight":2},{"qq":"1006953","weight":1},{"qq":"1006954","weight":2},{"qq":"1006955","weight":2},{"qq":"1006960","weight":2},{"qq":"1006963","weight":3},{"qq":"1006964","weight":2},{"qq":"1006967","weight":2},{"qq":"1006968","weight":2},{"qq":"1006970","weight":3},{"qq":"1006973","weight":2},{"qq":"1006977","weight":1},{"qq":"1006981","weight":2},{"qq":"1006983","weight":2},{"qq":"1006984","weight":2},{"qq":"1006985","weight":2},{"qq":"1006986","weight":1},{"qq":"1006989","weight":1},{"qq":"1006990","weight":2},{"qq":"1006995","weight":3},{"qq":"1006996","weight":3},{"qq":"1006998","weight":2},{"qq":"1006999","weight":2},{"qq":"1007000","weight":2},{"qq":"1007003","weight":2},{"qq":"1007004","weight":2},{"qq":"1007005","weight":1},{"qq":"1007007","weight":2},{"qq":"1007008","weight":2},{"qq":"1007010","weight":1},{"qq":"1007012","weight":2},{"qq":"1007013","weight":2},{"qq":"1007014","weight":2},{"qq":"1007018","weight":2},{"qq":"1007021","weight":2},{"qq":"1007022","weight":2},{"qq":"1007023","weight":1},{"qq":"1007026","weight":2},{"qq":"1007027","weight":3},{"qq":"1007028","weight":2},{"qq":"1007030","weight":2},{"qq":"1007032","weight":2},{"qq":"1007033","weight":2},{"qq":"1007036","weight":2},{"qq":"1007039","weight":3},{"qq":"1007040","weight":2},{"qq":"1007045","weight":2},{"qq":"1007046","weight":1},{"qq":"1007050","weight":2},{"qq":"1007051","weight":2},{"qq":"1007053","weight":1},{"qq":"1007055","weight":1},{"qq":"1007064","weight":2},{"qq":"1007066","weight":1},{"qq":"1007070","weight":2},{"qq":"1007074","weight":2},{"qq":"1007076","weight":2},{"qq":"1007078","weight":2},{"qq":"1007079","weight":3},{"qq":"1007080","weight":2},{"qq":"1007081","weight":3},{"qq":"1007082","weight":2},{"qq":"1007083","weight":2},{"qq":"1007085","weight":1},{"qq":"1007088","weight":1},{"qq":"1007092","weight":2},{"qq":"1007093","weight":2},{"qq":"1007095","weight":2},{"qq":"1007096","weight":3},{"qq":"1007097","weight":2},{"qq":"1007098","weight":2},{"qq":"1007099","weight":2},{"qq":"1007100","weight":2},{"qq":"1007101","weight":2},{"qq":"1007102","weight":2},{"qq":"1007103","weight":2},{"qq":"1007104","weight":1},{"qq":"1007106","weight":2},{"qq":"1007110","weight":2},{"qq":"1007111","weight":1},{"qq":"1007113","weight":2},{"qq":"1007114","weight":2},{"qq":"1007116","weight":2},{"qq":"1007117","weight":1},{"qq":"1007119","weight":3},{"qq":"1007120","weight":2},{"qq":"1007121","weight":2},{"qq":"1007122","weight":2},{"qq":"1007123","weight":3},{"qq":"1007125","weight":2},{"qq":"1007126","weight":2},{"qq":"1007127","weight":2},{"qq":"1007131","weight":1},{"qq":"1007134","weight":2},{"qq":"1007135","weight":1},{"qq":"1007136","weight":1},{"qq":"1007141","weight":1},{"qq":"1007142","weight":3},{"qq":"1007149","weight":2}]}
+
+2014-10-26 02:08:35 -INFO- upload respone:
+
+
+2014-10-26 02:08:35 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:08:35 -DEBUG- got 200 numbers
+2014-10-26 02:08:35 -DEBUG- start lazy join
+2014-10-26 02:09:06 -DEBUG- end lazy join
+2014-10-26 02:09:06 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:09:06 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1007150","weight":2},{"qq":"1007151","weight":2},{"qq":"1007157","weight":2},{"qq":"1007160","weight":1},{"qq":"1007161","weight":1},{"qq":"1007163","weight":2},{"qq":"1007164","weight":2},{"qq":"1007165","weight":2},{"qq":"1007166","weight":1},{"qq":"1007168","weight":2},{"qq":"1007169","weight":2},{"qq":"1007170","weight":2},{"qq":"1007171","weight":2},{"qq":"1007173","weight":2},{"qq":"1007175","weight":2},{"qq":"1007176","weight":3},{"qq":"1007178","weight":2},{"qq":"1007180","weight":2},{"qq":"1007182","weight":1},{"qq":"1007187","weight":2},{"qq":"1007188","weight":2},{"qq":"1007190","weight":3},{"qq":"1007196","weight":2},{"qq":"1007198","weight":2},{"qq":"1007200","weight":2},{"qq":"1007205","weight":2},{"qq":"1007208","weight":2},{"qq":"1007210","weight":2},{"qq":"1007211","weight":2},{"qq":"1007212","weight":2},{"qq":"1007213","weight":2},{"qq":"1007216","weight":2},{"qq":"1007217","weight":3},{"qq":"1007220","weight":1},{"qq":"1007223","weight":2},{"qq":"1007225","weight":2},{"qq":"1007229","weight":2},{"qq":"1007230","weight":2},{"qq":"1007234","weight":2},{"qq":"1007235","weight":2},{"qq":"1007236","weight":2},{"qq":"1007238","weight":1},{"qq":"1007239","weight":2},{"qq":"1007240","weight":2},{"qq":"1007252","weight":2},{"qq":"1007253","weight":2},{"qq":"1007254","weight":2},{"qq":"1007255","weight":2},{"qq":"1007256","weight":2},{"qq":"1007257","weight":3},{"qq":"1007258","weight":2},{"qq":"1007259","weight":2},{"qq":"1007260","weight":2},{"qq":"1007262","weight":2},{"qq":"1007266","weight":3},{"qq":"1007270","weight":2},{"qq":"1007271","weight":2},{"qq":"1007273","weight":3},{"qq":"1007274","weight":3},{"qq":"1007276","weight":1},{"qq":"1007277","weight":3},{"qq":"1007278","weight":2},{"qq":"1007279","weight":2},{"qq":"1007280","weight":1},{"qq":"1007281","weight":1},{"qq":"1007282","weight":2},{"qq":"1007285","weight":2},{"qq":"1007286","weight":2},{"qq":"1007289","weight":1},{"qq":"1007291","weight":2},{"qq":"1007294","weight":1},{"qq":"1007295","weight":3},{"qq":"1007297","weight":2},{"qq":"1007298","weight":2},{"qq":"1007308","weight":2},{"qq":"1007309","weight":2},{"qq":"1007310","weight":3},{"qq":"1007313","weight":1},{"qq":"1007316","weight":2},{"qq":"1007317","weight":2},{"qq":"1007319","weight":2},{"qq":"1007322","weight":2},{"qq":"1007325","weight":1},{"qq":"1007326","weight":3},{"qq":"1007330","weight":3},{"qq":"1007331","weight":1},{"qq":"1007333","weight":2},{"qq":"1007334","weight":2},{"qq":"1007335","weight":2},{"qq":"1007336","weight":2},{"qq":"1007337","weight":1},{"qq":"1007338","weight":1},{"qq":"1007342","weight":2},{"qq":"1007345","weight":2},{"qq":"1007348","weight":2}]}
+
+2014-10-26 02:09:06 -INFO- upload respone:
+
+
+2014-10-26 02:09:06 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:09:06 -DEBUG- got 200 numbers
+2014-10-26 02:09:06 -DEBUG- start lazy join
+2014-10-26 02:09:48 -DEBUG- end lazy join
+2014-10-26 02:09:48 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:09:48 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1007351","weight":2},{"qq":"1007352","weight":2},{"qq":"1007358","weight":3},{"qq":"1007360","weight":2},{"qq":"1007361","weight":2},{"qq":"1007362","weight":2},{"qq":"1007363","weight":2},{"qq":"1007364","weight":2},{"qq":"1007368","weight":3},{"qq":"1007370","weight":2},{"qq":"1007371","weight":1},{"qq":"1007372","weight":2},{"qq":"1007377","weight":1},{"qq":"1007379","weight":2},{"qq":"1007380","weight":2},{"qq":"1007381","weight":1},{"qq":"1007383","weight":2},{"qq":"1007384","weight":3},{"qq":"1007385","weight":2},{"qq":"1007390","weight":2},{"qq":"1007393","weight":2},{"qq":"1007395","weight":1},{"qq":"1007398","weight":2},{"qq":"1007402","weight":2},{"qq":"1007409","weight":2},{"qq":"1007414","weight":3},{"qq":"1007416","weight":2},{"qq":"1007419","weight":2},{"qq":"1007421","weight":2},{"qq":"1007422","weight":2},{"qq":"1007424","weight":2},{"qq":"1007425","weight":2},{"qq":"1007426","weight":2},{"qq":"1007427","weight":1},{"qq":"1007431","weight":2},{"qq":"1007433","weight":1},{"qq":"1007435","weight":2},{"qq":"1007437","weight":2},{"qq":"1007439","weight":3},{"qq":"1007445","weight":2},{"qq":"1007447","weight":2},{"qq":"1007448","weight":2},{"qq":"1007449","weight":2},{"qq":"1007450","weight":1},{"qq":"1007452","weight":1},{"qq":"1007453","weight":1},{"qq":"1007456","weight":2},{"qq":"1007458","weight":1},{"qq":"1007460","weight":3},{"qq":"1007461","weight":2},{"qq":"1007463","weight":2},{"qq":"1007465","weight":2},{"qq":"1007466","weight":3},{"qq":"1007469","weight":1},{"qq":"1007470","weight":2},{"qq":"1007478","weight":2},{"qq":"1007479","weight":1},{"qq":"1007481","weight":2},{"qq":"1007482","weight":2},{"qq":"1007483","weight":1},{"qq":"1007485","weight":2},{"qq":"1007487","weight":1},{"qq":"1007490","weight":2},{"qq":"1007493","weight":2},{"qq":"1007494","weight":2},{"qq":"1007495","weight":2},{"qq":"1007496","weight":2},{"qq":"1007498","weight":1},{"qq":"1007499","weight":2},{"qq":"1007501","weight":1},{"qq":"1007502","weight":2},{"qq":"1007503","weight":1},{"qq":"1007508","weight":2},{"qq":"1007509","weight":2},{"qq":"1007513","weight":2},{"qq":"1007516","weight":1},{"qq":"1007517","weight":2},{"qq":"1007518","weight":3},{"qq":"1007519","weight":1},{"qq":"1007520","weight":2},{"qq":"1007523","weight":2},{"qq":"1007524","weight":2},{"qq":"1007525","weight":2},{"qq":"1007527","weight":2},{"qq":"1007528","weight":2},{"qq":"1007529","weight":1},{"qq":"1007530","weight":2},{"qq":"1007534","weight":2},{"qq":"1007535","weight":2},{"qq":"1007536","weight":2},{"qq":"1007542","weight":2},{"qq":"1007544","weight":1},{"qq":"1007545","weight":1}]}
+
+2014-10-26 02:09:48 -INFO- upload respone:
+
+
+2014-10-26 02:09:48 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:09:48 -DEBUG- got 200 numbers
+2014-10-26 02:09:48 -DEBUG- start lazy join
+2014-10-26 02:10:28 -DEBUG- end lazy join
+2014-10-26 02:10:28 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:10:28 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1007553","weight":2},{"qq":"1007557","weight":2},{"qq":"1007560","weight":2},{"qq":"1007562","weight":2},{"qq":"1007565","weight":2},{"qq":"1007567","weight":2},{"qq":"1007570","weight":2},{"qq":"1007571","weight":2},{"qq":"1007573","weight":2},{"qq":"1007577","weight":2},{"qq":"1007579","weight":3},{"qq":"1007582","weight":2},{"qq":"1007585","weight":2},{"qq":"1007586","weight":2},{"qq":"1007587","weight":3},{"qq":"1007588","weight":2},{"qq":"1007591","weight":2},{"qq":"1007597","weight":2},{"qq":"1007599","weight":2},{"qq":"1007602","weight":2},{"qq":"1007603","weight":3},{"qq":"1007605","weight":2},{"qq":"1007608","weight":2},{"qq":"1007610","weight":2},{"qq":"1007611","weight":2},{"qq":"1007615","weight":2},{"qq":"1007618","weight":3},{"qq":"1007620","weight":2},{"qq":"1007624","weight":2},{"qq":"1007628","weight":2},{"qq":"1007629","weight":2},{"qq":"1007631","weight":2},{"qq":"1007634","weight":2},{"qq":"1007639","weight":2},{"qq":"1007641","weight":2},{"qq":"1007643","weight":1},{"qq":"1007644","weight":3},{"qq":"1007645","weight":2},{"qq":"1007646","weight":1},{"qq":"1007649","weight":2},{"qq":"1007651","weight":2},{"qq":"1007655","weight":2},{"qq":"1007657","weight":2},{"qq":"1007661","weight":1},{"qq":"1007663","weight":2},{"qq":"1007669","weight":2},{"qq":"1007671","weight":3},{"qq":"1007673","weight":2},{"qq":"1007674","weight":2},{"qq":"1007675","weight":3},{"qq":"1007677","weight":2},{"qq":"1007681","weight":2},{"qq":"1007682","weight":2},{"qq":"1007684","weight":2},{"qq":"1007686","weight":3},{"qq":"1007688","weight":3},{"qq":"1007690","weight":3},{"qq":"1007692","weight":2},{"qq":"1007694","weight":2},{"qq":"1007697","weight":2},{"qq":"1007699","weight":2},{"qq":"1007703","weight":2},{"qq":"1007705","weight":2},{"qq":"1007706","weight":1},{"qq":"1007707","weight":3},{"qq":"1007708","weight":2},{"qq":"1007709","weight":1},{"qq":"1007714","weight":2},{"qq":"1007716","weight":2},{"qq":"1007718","weight":2},{"qq":"1007719","weight":3},{"qq":"1007724","weight":2},{"qq":"1007725","weight":2},{"qq":"1007726","weight":3},{"qq":"1007727","weight":2},{"qq":"1007731","weight":2},{"qq":"1007732","weight":2},{"qq":"1007735","weight":2},{"qq":"1007736","weight":1},{"qq":"1007738","weight":2},{"qq":"1007740","weight":2},{"qq":"1007742","weight":2},{"qq":"1007743","weight":1},{"qq":"1007746","weight":2},{"qq":"1007747","weight":2}]}
+
+2014-10-26 02:10:28 -INFO- upload respone:
+
+
+2014-10-26 02:10:28 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:10:28 -DEBUG- got 200 numbers
+2014-10-26 02:10:28 -DEBUG- start lazy join
+2014-10-26 02:11:02 -DEBUG- end lazy join
+2014-10-26 02:11:02 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:11:02 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1007750","weight":2},{"qq":"1007751","weight":1},{"qq":"1007752","weight":2},{"qq":"1007757","weight":3},{"qq":"1007761","weight":2},{"qq":"1007764","weight":2},{"qq":"1007766","weight":2},{"qq":"1007768","weight":2},{"qq":"1007771","weight":1},{"qq":"1007773","weight":2},{"qq":"1007774","weight":2},{"qq":"1007775","weight":2},{"qq":"1007776","weight":2},{"qq":"1007780","weight":2},{"qq":"1007782","weight":2},{"qq":"1007783","weight":2},{"qq":"1007784","weight":1},{"qq":"1007786","weight":2},{"qq":"1007791","weight":2},{"qq":"1007794","weight":2},{"qq":"1007795","weight":2},{"qq":"1007797","weight":2},{"qq":"1007798","weight":2},{"qq":"1007800","weight":2},{"qq":"1007801","weight":1},{"qq":"1007802","weight":1},{"qq":"1007803","weight":2},{"qq":"1007806","weight":2},{"qq":"1007814","weight":2},{"qq":"1007815","weight":1},{"qq":"1007824","weight":1},{"qq":"1007825","weight":2},{"qq":"1007827","weight":2},{"qq":"1007832","weight":2},{"qq":"1007833","weight":2},{"qq":"1007835","weight":2},{"qq":"1007838","weight":2},{"qq":"1007839","weight":2},{"qq":"1007844","weight":2},{"qq":"1007845","weight":2},{"qq":"1007847","weight":2},{"qq":"1007848","weight":2},{"qq":"1007849","weight":2},{"qq":"1007852","weight":3},{"qq":"1007855","weight":2},{"qq":"1007856","weight":3},{"qq":"1007861","weight":2},{"qq":"1007862","weight":3},{"qq":"1007863","weight":2},{"qq":"1007865","weight":2},{"qq":"1007870","weight":2},{"qq":"1007871","weight":2},{"qq":"1007874","weight":2},{"qq":"1007877","weight":3},{"qq":"1007878","weight":1},{"qq":"1007880","weight":2},{"qq":"1007882","weight":2},{"qq":"1007883","weight":2},{"qq":"1007886","weight":2},{"qq":"1007887","weight":2},{"qq":"1007888","weight":2},{"qq":"1007893","weight":2},{"qq":"1007894","weight":3},{"qq":"1007895","weight":2},{"qq":"1007898","weight":2},{"qq":"1007899","weight":1},{"qq":"1007900","weight":1},{"qq":"1007903","weight":2},{"qq":"1007906","weight":3},{"qq":"1007907","weight":1},{"qq":"1007908","weight":2},{"qq":"1007912","weight":2},{"qq":"1007916","weight":1},{"qq":"1007917","weight":2},{"qq":"1007918","weight":2},{"qq":"1007919","weight":2},{"qq":"1007920","weight":3},{"qq":"1007921","weight":2},{"qq":"1007922","weight":1},{"qq":"1007923","weight":2},{"qq":"1007924","weight":2},{"qq":"1007925","weight":3},{"qq":"1007927","weight":1},{"qq":"1007928","weight":2},{"qq":"1007934","weight":1},{"qq":"1007935","weight":2},{"qq":"1007936","weight":1},{"qq":"1007938","weight":2},{"qq":"1007939","weight":2},{"qq":"1007940","weight":2},{"qq":"1007941","weight":3},{"qq":"1007943","weight":2},{"qq":"1007945","weight":2},{"qq":"1007946","weight":2},{"qq":"1007948","weight":2}]}
+
+2014-10-26 02:11:02 -INFO- upload respone:
+
+
+2014-10-26 02:11:02 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:11:02 -DEBUG- got 200 numbers
+2014-10-26 02:11:02 -DEBUG- start lazy join
+2014-10-26 02:11:40 -DEBUG- end lazy join
+2014-10-26 02:11:40 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:11:40 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1007950","weight":2},{"qq":"1007951","weight":2},{"qq":"1007952","weight":2},{"qq":"1007957","weight":2},{"qq":"1007958","weight":1},{"qq":"1007959","weight":2},{"qq":"1007960","weight":2},{"qq":"1007961","weight":3},{"qq":"1007962","weight":2},{"qq":"1007966","weight":1},{"qq":"1007969","weight":1},{"qq":"1007973","weight":2},{"qq":"1007975","weight":3},{"qq":"1007977","weight":2},{"qq":"1007979","weight":3},{"qq":"1007980","weight":1},{"qq":"1007981","weight":3},{"qq":"1007982","weight":2},{"qq":"1007985","weight":3},{"qq":"1007986","weight":1},{"qq":"1007987","weight":2},{"qq":"1007989","weight":2},{"qq":"1007990","weight":1},{"qq":"1007991","weight":2},{"qq":"1007992","weight":2},{"qq":"1007993","weight":2},{"qq":"1007994","weight":2},{"qq":"1007995","weight":1},{"qq":"1007998","weight":2},{"qq":"1008002","weight":1},{"qq":"1008004","weight":1},{"qq":"1008005","weight":2},{"qq":"1008006","weight":1},{"qq":"1008007","weight":2},{"qq":"1008008","weight":2},{"qq":"1008009","weight":1},{"qq":"1008010","weight":2},{"qq":"1008012","weight":3},{"qq":"1008013","weight":2},{"qq":"1008017","weight":2},{"qq":"1008018","weight":2},{"qq":"1008025","weight":3},{"qq":"1008027","weight":2},{"qq":"1008029","weight":2},{"qq":"1008030","weight":1},{"qq":"1008031","weight":2},{"qq":"1008034","weight":2},{"qq":"1008035","weight":2},{"qq":"1008040","weight":2},{"qq":"1008044","weight":2},{"qq":"1008045","weight":2},{"qq":"1008048","weight":2},{"qq":"1008052","weight":2},{"qq":"1008055","weight":2},{"qq":"1008058","weight":3},{"qq":"1008060","weight":2},{"qq":"1008061","weight":2},{"qq":"1008065","weight":2},{"qq":"1008067","weight":2},{"qq":"1008068","weight":2},{"qq":"1008069","weight":1},{"qq":"1008070","weight":3},{"qq":"1008072","weight":2},{"qq":"1008074","weight":2},{"qq":"1008077","weight":3},{"qq":"1008079","weight":2},{"qq":"1008080","weight":2},{"qq":"1008081","weight":2},{"qq":"1008082","weight":3},{"qq":"1008083","weight":1},{"qq":"1008085","weight":3},{"qq":"1008086","weight":2},{"qq":"1008091","weight":1},{"qq":"1008097","weight":3},{"qq":"1008098","weight":2},{"qq":"1008104","weight":2},{"qq":"1008110","weight":2},{"qq":"1008111","weight":2},{"qq":"1008113","weight":2},{"qq":"1008114","weight":3},{"qq":"1008116","weight":2},{"qq":"1008117","weight":2},{"qq":"1008118","weight":1},{"qq":"1008119","weight":2},{"qq":"1008120","weight":2},{"qq":"1008122","weight":2},{"qq":"1008124","weight":2},{"qq":"1008125","weight":2},{"qq":"1008126","weight":1},{"qq":"1008127","weight":2},{"qq":"1008130","weight":2},{"qq":"1008131","weight":1},{"qq":"1008132","weight":3},{"qq":"1008134","weight":2},{"qq":"1008137","weight":2},{"qq":"1008138","weight":2},{"qq":"1008139","weight":1},{"qq":"1008142","weight":2},{"qq":"1008143","weight":2},{"qq":"1008146","weight":2},{"qq":"1008148","weight":2},{"qq":"1008149","weight":2}]}
+
+2014-10-26 02:11:40 -INFO- upload respone:
+
+
+2014-10-26 02:11:40 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:11:40 -DEBUG- got 200 numbers
+2014-10-26 02:11:40 -DEBUG- start lazy join
+2014-10-26 02:12:11 -DEBUG- end lazy join
+2014-10-26 02:12:11 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:12:11 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1008150","weight":2},{"qq":"1008152","weight":3},{"qq":"1008153","weight":2},{"qq":"1008156","weight":2},{"qq":"1008160","weight":2},{"qq":"1008161","weight":2},{"qq":"1008162","weight":2},{"qq":"1008163","weight":2},{"qq":"1008165","weight":2},{"qq":"1008166","weight":2},{"qq":"1008167","weight":1},{"qq":"1008168","weight":2},{"qq":"1008169","weight":2},{"qq":"1008170","weight":1},{"qq":"1008174","weight":1},{"qq":"1008176","weight":1},{"qq":"1008177","weight":3},{"qq":"1008178","weight":2},{"qq":"1008179","weight":3},{"qq":"1008181","weight":1},{"qq":"1008183","weight":2},{"qq":"1008187","weight":2},{"qq":"1008188","weight":1},{"qq":"1008190","weight":2},{"qq":"1008193","weight":2},{"qq":"1008194","weight":2},{"qq":"1008200","weight":2},{"qq":"1008202","weight":2},{"qq":"1008203","weight":3},{"qq":"1008204","weight":1},{"qq":"1008205","weight":2},{"qq":"1008206","weight":2},{"qq":"1008208","weight":2},{"qq":"1008209","weight":1},{"qq":"1008210","weight":2},{"qq":"1008211","weight":2},{"qq":"1008212","weight":2},{"qq":"1008220","weight":2},{"qq":"1008223","weight":2},{"qq":"1008224","weight":3},{"qq":"1008226","weight":1},{"qq":"1008227","weight":2},{"qq":"1008232","weight":2},{"qq":"1008233","weight":2},{"qq":"1008235","weight":2},{"qq":"1008237","weight":2},{"qq":"1008238","weight":2},{"qq":"1008240","weight":2},{"qq":"1008241","weight":2},{"qq":"1008242","weight":2},{"qq":"1008245","weight":2},{"qq":"1008246","weight":2},{"qq":"1008248","weight":1},{"qq":"1008250","weight":2},{"qq":"1008253","weight":1},{"qq":"1008254","weight":2},{"qq":"1008255","weight":2},{"qq":"1008257","weight":2},{"qq":"1008258","weight":2},{"qq":"1008259","weight":1},{"qq":"1008264","weight":2},{"qq":"1008272","weight":2},{"qq":"1008273","weight":2},{"qq":"1008276","weight":3},{"qq":"1008281","weight":3},{"qq":"1008282","weight":2},{"qq":"1008284","weight":2},{"qq":"1008287","weight":2},{"qq":"1008288","weight":2},{"qq":"1008289","weight":2},{"qq":"1008290","weight":2},{"qq":"1008293","weight":2},{"qq":"1008294","weight":2},{"qq":"1008297","weight":2},{"qq":"1008302","weight":1},{"qq":"1008303","weight":2},{"qq":"1008305","weight":2},{"qq":"1008306","weight":1},{"qq":"1008307","weight":2},{"qq":"1008308","weight":2},{"qq":"1008312","weight":2},{"qq":"1008313","weight":2},{"qq":"1008314","weight":2},{"qq":"1008316","weight":3},{"qq":"1008317","weight":1},{"qq":"1008319","weight":1},{"qq":"1008321","weight":2},{"qq":"1008323","weight":2},{"qq":"1008324","weight":3},{"qq":"1008326","weight":2},{"qq":"1008327","weight":1},{"qq":"1008328","weight":2},{"qq":"1008331","weight":1},{"qq":"1008332","weight":2},{"qq":"1008333","weight":2},{"qq":"1008335","weight":1},{"qq":"1008336","weight":2},{"qq":"1008337","weight":2},{"qq":"1008342","weight":2},{"qq":"1008344","weight":2},{"qq":"1008345","weight":2},{"qq":"1008346","weight":1},{"qq":"1008347","weight":2}]}
+
+2014-10-26 02:12:11 -INFO- upload respone:
+
+
+2014-10-26 02:12:11 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:12:11 -DEBUG- got 200 numbers
+2014-10-26 02:12:11 -DEBUG- start lazy join
+2014-10-26 02:12:41 -DEBUG- end lazy join
+2014-10-26 02:12:41 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:12:41 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1008351","weight":2},{"qq":"1008352","weight":1},{"qq":"1008353","weight":2},{"qq":"1008354","weight":1},{"qq":"1008358","weight":2},{"qq":"1008362","weight":2},{"qq":"1008368","weight":2},{"qq":"1008370","weight":2},{"qq":"1008374","weight":2},{"qq":"1008376","weight":2},{"qq":"1008380","weight":2},{"qq":"1008381","weight":3},{"qq":"1008382","weight":2},{"qq":"1008386","weight":2},{"qq":"1008387","weight":1},{"qq":"1008388","weight":3},{"qq":"1008390","weight":2},{"qq":"1008392","weight":1},{"qq":"1008394","weight":3},{"qq":"1008397","weight":2},{"qq":"1008398","weight":2},{"qq":"1008399","weight":2},{"qq":"1008405","weight":2},{"qq":"1008407","weight":3},{"qq":"1008410","weight":2},{"qq":"1008411","weight":3},{"qq":"1008412","weight":2},{"qq":"1008413","weight":3},{"qq":"1008415","weight":2},{"qq":"1008417","weight":1},{"qq":"1008418","weight":3},{"qq":"1008419","weight":2},{"qq":"1008421","weight":2},{"qq":"1008422","weight":2},{"qq":"1008430","weight":2},{"qq":"1008431","weight":3},{"qq":"1008434","weight":3},{"qq":"1008436","weight":2},{"qq":"1008439","weight":2},{"qq":"1008442","weight":2},{"qq":"1008443","weight":1},{"qq":"1008444","weight":2},{"qq":"1008445","weight":3},{"qq":"1008446","weight":1},{"qq":"1008447","weight":2},{"qq":"1008449","weight":2},{"qq":"1008450","weight":2},{"qq":"1008454","weight":2},{"qq":"1008457","weight":2},{"qq":"1008458","weight":1},{"qq":"1008460","weight":1},{"qq":"1008461","weight":2},{"qq":"1008462","weight":2},{"qq":"1008464","weight":1},{"qq":"1008467","weight":1},{"qq":"1008468","weight":2},{"qq":"1008469","weight":1},{"qq":"1008470","weight":2},{"qq":"1008471","weight":2},{"qq":"1008472","weight":1},{"qq":"1008474","weight":1},{"qq":"1008479","weight":1},{"qq":"1008482","weight":1},{"qq":"1008483","weight":2},{"qq":"1008484","weight":2},{"qq":"1008487","weight":2},{"qq":"1008488","weight":2},{"qq":"1008491","weight":2},{"qq":"1008495","weight":2},{"qq":"1008500","weight":2},{"qq":"1008501","weight":2},{"qq":"1008506","weight":2},{"qq":"1008507","weight":2},{"qq":"1008510","weight":3},{"qq":"1008511","weight":2},{"qq":"1008512","weight":2},{"qq":"1008513","weight":2},{"qq":"1008516","weight":3},{"qq":"1008518","weight":1},{"qq":"1008519","weight":2},{"qq":"1008520","weight":2},{"qq":"1008521","weight":2},{"qq":"1008523","weight":2},{"qq":"1008524","weight":2},{"qq":"1008525","weight":2},{"qq":"1008526","weight":2},{"qq":"1008528","weight":2},{"qq":"1008535","weight":2},{"qq":"1008539","weight":2},{"qq":"1008541","weight":1},{"qq":"1008542","weight":2},{"qq":"1008545","weight":2},{"qq":"1008547","weight":2},{"qq":"1008548","weight":2},{"qq":"1008549","weight":1}]}
+
+2014-10-26 02:12:41 -INFO- upload respone:
+
+
+2014-10-26 02:12:41 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:12:41 -DEBUG- got 200 numbers
+2014-10-26 02:12:41 -DEBUG- start lazy join
+2014-10-26 02:13:22 -DEBUG- end lazy join
+2014-10-26 02:13:22 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:13:22 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1008551","weight":2},{"qq":"1008553","weight":3},{"qq":"1008554","weight":3},{"qq":"1008557","weight":2},{"qq":"1008558","weight":2},{"qq":"1008560","weight":1},{"qq":"1008565","weight":3},{"qq":"1008566","weight":2},{"qq":"1008569","weight":2},{"qq":"1008571","weight":2},{"qq":"1008574","weight":2},{"qq":"1008577","weight":1},{"qq":"1008579","weight":2},{"qq":"1008580","weight":2},{"qq":"1008581","weight":3},{"qq":"1008582","weight":2},{"qq":"1008584","weight":2},{"qq":"1008585","weight":1},{"qq":"1008586","weight":2},{"qq":"1008589","weight":2},{"qq":"1008591","weight":2},{"qq":"1008597","weight":2},{"qq":"1008599","weight":3},{"qq":"1008600","weight":2},{"qq":"1008605","weight":2},{"qq":"1008606","weight":2},{"qq":"1008609","weight":2},{"qq":"1008610","weight":2},{"qq":"1008611","weight":2},{"qq":"1008612","weight":2},{"qq":"1008613","weight":3},{"qq":"1008614","weight":2},{"qq":"1008615","weight":2},{"qq":"1008617","weight":2},{"qq":"1008624","weight":2},{"qq":"1008625","weight":1},{"qq":"1008627","weight":2},{"qq":"1008632","weight":2},{"qq":"1008635","weight":2},{"qq":"1008636","weight":1},{"qq":"1008640","weight":2},{"qq":"1008642","weight":2},{"qq":"1008645","weight":2},{"qq":"1008646","weight":2},{"qq":"1008648","weight":2},{"qq":"1008655","weight":2},{"qq":"1008656","weight":3},{"qq":"1008657","weight":3},{"qq":"1008658","weight":2},{"qq":"1008660","weight":3},{"qq":"1008661","weight":2},{"qq":"1008662","weight":1},{"qq":"1008664","weight":1},{"qq":"1008665","weight":2},{"qq":"1008666","weight":2},{"qq":"1008668","weight":2},{"qq":"1008669","weight":2},{"qq":"1008672","weight":2},{"qq":"1008673","weight":2},{"qq":"1008674","weight":2},{"qq":"1008675","weight":2},{"qq":"1008676","weight":1},{"qq":"1008677","weight":1},{"qq":"1008681","weight":3},{"qq":"1008683","weight":2},{"qq":"1008684","weight":2},{"qq":"1008685","weight":2},{"qq":"1008686","weight":2},{"qq":"1008687","weight":2},{"qq":"1008688","weight":2},{"qq":"1008689","weight":2},{"qq":"1008690","weight":2},{"qq":"1008691","weight":2},{"qq":"1008693","weight":2},{"qq":"1008694","weight":2},{"qq":"1008695","weight":2},{"qq":"1008697","weight":2},{"qq":"1008700","weight":1},{"qq":"1008701","weight":1},{"qq":"1008702","weight":2},{"qq":"1008704","weight":2},{"qq":"1008705","weight":2},{"qq":"1008706","weight":3},{"qq":"1008708","weight":2},{"qq":"1008710","weight":2},{"qq":"1008712","weight":2},{"qq":"1008717","weight":2},{"qq":"1008718","weight":2},{"qq":"1008720","weight":3},{"qq":"1008721","weight":2},{"qq":"1008725","weight":2},{"qq":"1008726","weight":2},{"qq":"1008727","weight":2},{"qq":"1008729","weight":2},{"qq":"1008730","weight":3},{"qq":"1008732","weight":1},{"qq":"1008737","weight":2},{"qq":"1008738","weight":1},{"qq":"1008741","weight":1},{"qq":"1008743","weight":2},{"qq":"1008744","weight":2},{"qq":"1008745","weight":2},{"qq":"1008746","weight":3},{"qq":"1008747","weight":3}]}
+
+2014-10-26 02:13:23 -INFO- upload respone:
+
+
+2014-10-26 02:13:23 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:13:23 -DEBUG- got 200 numbers
+2014-10-26 02:13:23 -DEBUG- start lazy join
+2014-10-26 02:13:50 -DEBUG- end lazy join
+2014-10-26 02:13:50 -DEBUG- 200 numbers detecting finished
+2014-10-26 02:13:50 -INFO- upload json:
+result={"version":"1.0","result":[{"qq":"1008750","weight":2},{"qq":"1008752","weight":2},{"qq":"1008761","weight":2},{"qq":"1008762","weight":1},{"qq":"1008763","weight":1},{"qq":"1008764","weight":1},{"qq":"1008765","weight":2},{"qq":"1008766","weight":2},{"qq":"1008767","weight":1},{"qq":"1008771","weight":2},{"qq":"1008774","weight":3},{"qq":"1008776","weight":2},{"qq":"1008777","weight":2},{"qq":"1008778","weight":2},{"qq":"1008780","weight":2},{"qq":"1008783","weight":2},{"qq":"1008784","weight":2},{"qq":"1008787","weight":2},{"qq":"1008788","weight":1},{"qq":"1008789","weight":2},{"qq":"1008790","weight":2},{"qq":"1008791","weight":2},{"qq":"1008793","weight":2},{"qq":"1008795","weight":2},{"qq":"1008797","weight":2},{"qq":"1008801","weight":1},{"qq":"1008804","weight":1},{"qq":"1008807","weight":2},{"qq":"1008811","weight":2},{"qq":"1008814","weight":3},{"qq":"1008815","weight":2},{"qq":"1008816","weight":1},{"qq":"1008818","weight":2},{"qq":"1008821","weight":3},{"qq":"1008823","weight":2},{"qq":"1008824","weight":2},{"qq":"1008825","weight":2},{"qq":"1008826","weight":2},{"qq":"1008827","weight":3},{"qq":"1008829","weight":2},{"qq":"1008833","weight":1},{"qq":"1008835","weight":2},{"qq":"1008839","weight":2},{"qq":"1008840","weight":2},{"qq":"1008842","weight":2},{"qq":"1008844","weight":2},{"qq":"1008845","weight":1},{"qq":"1008846","weight":3},{"qq":"1008850","weight":2},{"qq":"1008851","weight":2},{"qq":"1008852","weight":3},{"qq":"1008853","weight":3},{"qq":"1008854","weight":2},{"qq":"1008855","weight":2},{"qq":"1008856","weight":2},{"qq":"1008858","weight":2},{"qq":"1008859","weight":3},{"qq":"1008860","weight":1},{"qq":"1008861","weight":2},{"qq":"1008862","weight":2},{"qq":"1008865","weight":2},{"qq":"1008867","weight":2},{"qq":"1008869","weight":2},{"qq":"1008870","weight":3},{"qq":"1008873","weight":1},{"qq":"1008874","weight":1},{"qq":"1008875","weight":2},{"qq":"1008876","weight":2},{"qq":"1008879","weight":2},{"qq":"1008880","weight":1},{"qq":"1008881","weight":2},{"qq":"1008882","weight":3},{"qq":"1008883","weight":2},{"qq":"1008887","weight":3},{"qq":"1008888","weight":3},{"qq":"1008891","weight":2},{"qq":"1008897","weight":3},{"qq":"1008898","weight":2},{"qq":"1008901","weight":2},{"qq":"1008902","weight":2},{"qq":"1008903","weight":1},{"qq":"1008904","weight":2},{"qq":"1008905","weight":2},{"qq":"1008907","weight":1},{"qq":"1008910","weight":2},{"qq":"1008912","weight":3},{"qq":"1008914","weight":3},{"qq":"1008915","weight":2},{"qq":"1008916","weight":2},{"qq":"1008919","weight":2},{"qq":"1008920","weight":1},{"qq":"1008922","weight":2},{"qq":"1008923","weight":2},{"qq":"1008927","weight":2},{"qq":"1008928","weight":1},{"qq":"1008930","weight":3},{"qq":"1008932","weight":2},{"qq":"1008934","weight":1},{"qq":"1008939","weight":1},{"qq":"1008940","weight":1},{"qq":"1008943","weight":1},{"qq":"1008945","weight":1},{"qq":"1008946","weight":2},{"qq":"1008947","weight":2},{"qq":"1008948","weight":2},{"qq":"1008949","weight":1}]}
+
+2014-10-26 02:13:50 -INFO- upload respone:
+
+
+2014-10-26 02:13:50 -DEBUG- 200 numbers detected result upload finished
+2014-10-26 02:13:50 -DEBUG- got 200 numbers
+2014-10-26 02:13:50 -DEBUG- start lazy join

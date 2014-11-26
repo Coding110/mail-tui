@@ -14,5 +14,8 @@ int upload_detected_result(vector<number_info_t> &nis, const char *user = "selfl
 int qzone_detect(const char *number);
 int multi_qzone_detect(vector<number_info_t> &nis);
 
+// do all the detecting work
+int easy_detect();
+
 #endif
 
