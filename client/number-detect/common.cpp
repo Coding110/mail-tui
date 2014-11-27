@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <curl/curl.h>
 #include "common.h" 
+#include "log.h"
 
 #pragma comment(lib, "libcurl.lib")
 
@@ -10,7 +11,7 @@ int memcpy_no_blank(char *src, size_t src_size, string &dst)
 {
 	char *buf = new char[src_size];
 	size_t pos = 0;
-	for(int i; i < src_size; i++){
+	for(size_t i = 0; i < src_size; i++){
 		if(src[i] != ' ' && src[i] != '\r' && src[i] != '\n' && src[i] != '\t') buf[pos++] = src[i];
 	}
 	buf[pos] = '\0';
@@ -25,7 +26,7 @@ int string_line_format(string &src)
 	size_t src_size = src.size();
 	char *buf = new char[src_size];
 	size_t pos = 0;
-	for(int i = 0; i < src_size; i++){
+	for (size_t i = 0; i < src_size; i++){
 		if(src[i] != ' ' && src[i] != '\r' && src[i] != '\n' && src[i] != '\t') buf[pos++] = src[i];
 	}
 	buf[pos] = '\0';
@@ -53,7 +54,7 @@ int http_get(const char *url, data_t &http_data)
         res = curl_easy_perform(curl);   // 执行
         if (res != 0) {
 			ret = -1;
-			printf("curl error: %s\n", curl_easy_strerror(res));
+			Logging(E_LOG_ERROR, "curl error: %s, url: %s\n", curl_easy_strerror(res), url);
         }else{
 		}
     }
@@ -91,7 +92,7 @@ int http_post(const char *url, char *form_data, data_t &http_data)
         res = curl_easy_perform(curl);
         if (res != 0) {
 			ret = -1;
-			printf("curl error: %s\n", curl_easy_strerror(res));
+			Logging(E_LOG_ERROR, "curl error: %s, url: %s\n", curl_easy_strerror(res), url);
         }else{
 		}
     }

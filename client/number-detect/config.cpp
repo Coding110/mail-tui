@@ -10,7 +10,9 @@ int read_config(const char *cfgfile, config_t &cfg)
 	if(cfgfile == NULL) return -1;
 
 	FILE *fp = fopen(cfgfile, "r");
-	if(fp == NULL) return -2;
+	if (fp == NULL){
+		return -2;
+	}
 
 	char read_buf[1024], key[1024], value[1024];
 	int i = 1;

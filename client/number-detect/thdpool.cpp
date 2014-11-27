@@ -18,9 +18,13 @@
  *
  */
 
-
+#ifdef WIN32
+#include "stdafx.h"
+#else
 #include <unistd.h>
+#endif
 #include "thdpool.h"
+
 
 CThdPool::CThdPool(){
 }
@@ -45,6 +49,7 @@ int CThdPool::PoolInit(int pool_size, TaskConsumHandle handle/* = NULL*/){
 	pthread_mutex_init(&mRunningThdsMutex, NULL);
 
 	CreateThreads();
+	return 0;
 }
 
 void CThdPool::CreateThreads(){
@@ -99,6 +104,7 @@ int CThdPool::AddTask(void *pUser, TaskConsumHandle handle/* = NULL*/){
 	mTaskList.push_back(tTaskInfo);
 	mBusy = true;
 	//printf("New task come in, handle: %p, serve handle: %p, task count: %lu.\n", handle, tTaskInfo.fTaskHandle, mTaskList.size());
+	return 0;
 }
 
 bool CThdPool::GetNewTask(TaskInfo &task_info)

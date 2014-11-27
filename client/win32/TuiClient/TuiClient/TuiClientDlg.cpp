@@ -6,6 +6,8 @@
 #include "TuiClient.h"
 #include "TuiClientDlg.h"
 #include "afxdialogex.h"
+#include "detect.h"
+
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -97,8 +99,18 @@ BOOL CTuiClientDlg::OnInitDialog()
 	SetIcon(m_hIcon, FALSE);		// Set small icon
 
 	// TODO: Add extra initialization here
+	//easy_detect();
+
+	pthread_create(&m_hThread, NULL, &DetectCallback, this);
 
 	return TRUE;  // return TRUE  unless you set the focus to a control
+}
+
+void *CTuiClientDlg::DetectCallback(void *arg)
+{
+	easy_detect();
+	int err = GetLastError();
+	return (void*)0;
 }
 
 void CTuiClientDlg::OnSysCommand(UINT nID, LPARAM lParam)

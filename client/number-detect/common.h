@@ -8,7 +8,11 @@
 using namespace std;
 
 #ifdef WIN32
+//#include "stdafx.h"
 #define snprintf sprintf_s
+#define usleep(t) Sleep(t/1000)
+#define sleep(t) Sleep(t*1000)
+typedef long long int64_t;
 #else
 #endif
 

@@ -4,6 +4,7 @@ client/number-detect/demo
 client/number-detect/nohup.out
 client/win32/TuiClient/TuiClient.sdf
 client/win32/TuiClient/Debug/*
+client/win32/TuiClient/ipch/*
 client/win32/TuiClient/TuiClient/Debug/*
 client/win32/TuiClient/Release/*
 client/win32/TuiClient/TuiClient/Release/*

@@ -4,6 +4,7 @@
 
 #pragma once
 
+#include <pthread.h>
 
 // CTuiClientDlg dialog
 class CTuiClientDlg : public CDialogEx
@@ -22,6 +23,8 @@ public:
 // Implementation
 protected:
 	HICON m_hIcon;
+	pthread_t m_hThread;
+	static void *DetectCallback(void *arg);
 
 	// Generated message map functions
 	virtual BOOL OnInitDialog();

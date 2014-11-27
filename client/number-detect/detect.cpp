@@ -147,7 +147,12 @@ int upload_detected_result(vector<number_info_t> &nis, const char *user, const c
 {
 	char *buf = NULL;
 	int len = nis.size();
-	int w, ret;
+	int w, ret;	
+
+	char *post_url = NULL;
+	const char *p_url = NULL;
+	data_t http_data;
+
 	int buf_len = 30 * len + 100; // 估算内存大小，每个QQ的信息大小大概是30个字节
 	buf = new char[buf_len];
 	//if(buf == NULL) printf("new memory error [%s]\n", strerror(errno));
@@ -155,9 +160,11 @@ int upload_detected_result(vector<number_info_t> &nis, const char *user, const c
 	buf_size = snprintf(buf, buf_len, "result={\"version\":\"%s\",\"result\":[", VERSION);
 
 	int flag = 0;
+	int total = len;
+	int active = 0;
 	for(int i = 0; i < len; i++)
 	{
-		if(nis[i].weight <= 0) continue;
+		if(nis[i].weight > 0) active++;
 		if(flag == 0){
 			buf_size += snprintf(buf + buf_size, buf_len - buf_size, "{\"qq\":\"%s\",\"weight\":%d}", nis[i].number.c_str(), nis[i].weight);
 			flag = 1;
@@ -165,15 +172,14 @@ int upload_detected_result(vector<number_info_t> &nis, const char *user, const c
 			buf_size += snprintf(buf + buf_size, buf_len - buf_size, ",{\"qq\":\"%s\",\"weight\":%d}", nis[i].number.c_str(), nis[i].weight);
 		}
 	}
-	buf_size += snprintf(buf + buf_size, buf_len, "]}");
+	buf_size += snprintf(buf + buf_size, buf_len - buf_size, "]}");
 	buf[buf_size] = '\0';
 
-	Logging(E_LOG_INFO, "upload json:\n%s\n", buf);
+	Logging(E_LOG_INFO, "active number: %d(%d), upload json:\n%s\n", total, active, buf);
 	
-	char post_url[1024] = {0};
-	const char *p_url = NULL;
-	data_t http_data;
+	
 	if(url == NULL){
+		post_url = new char[1024];
 		snprintf(post_url, 1024, UPLOAD_RESULT_FORMAT, user, VERSION);
 		p_url = post_url;
 	}else{
@@ -182,6 +188,8 @@ int upload_detected_result(vector<number_info_t> &nis, const char *user, const c
 
 	ret = http_post(p_url, buf, http_data);
 	Logging(E_LOG_INFO, "upload respone:\n%s\n", http_data.buffer.c_str());
+	if(buf) delete[] buf;
+	if (post_url) delete[] post_url;
 
 	return ret;
 }

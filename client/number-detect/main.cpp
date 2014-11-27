@@ -4,7 +4,9 @@
 #include "thdpool.h"
 #include "log.h"
 
-#ifndef WIN32
+#ifdef WIN32
+#include "stdafx.h"
+#else
 #include <unistd.h>
 #endif
 

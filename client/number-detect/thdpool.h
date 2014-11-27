@@ -29,6 +29,7 @@ using namespace std;
 #include <stdio.h>
 #include<semaphore.h>
 #include <pthread.h>
+#include "common.h"
 
 /*
  *	Pre-define

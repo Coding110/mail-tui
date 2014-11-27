@@ -5,6 +5,10 @@
 #include <pthread.h>
 #include "log.h"
 #include "common.h"
+#ifdef WIN32
+#include "stdafx.h"
+#pragma comment(lib, "pthreadVC2.lib")
+#endif
 
 static FILE *flog = NULL;
 static char slogfile[256];
@@ -15,11 +19,20 @@ char *gettime(char *timestr);
 
 int OpenLog(const char *logfile, int log_level)
 {
-	flog = fopen(logfile, "a");
-	if(flog == NULL){
+#ifdef WIN32
+	errno_t en = fopen_s(&flog, logfile, "a");
+	if(en){
+		fprintf(stderr, "Log file open failed, file: %s, errno: %d\n", logfile, en);
+		return -1;
+}
+#else
+	flog = fopen(logfile, "a"); 
+	if (flog == NULL){
 		fprintf(stderr, "Log file open failed, file: %s, errno: %d\n", logfile, errno);
 		return -1;
 	}
+#endif
+	
 	slog_level = log_level;
 	pthread_mutex_init(&log_mutex, NULL);
 	return 0;
@@ -29,6 +42,7 @@ int CloseLog()
 {
 	if(flog) fclose(flog);
 	pthread_mutex_destroy(&log_mutex);
+	return 0;
 }
 
 int Logging(int level, const char *format, ...)
@@ -47,7 +61,9 @@ int Logging(int level, const char *format, ...)
 	va_start(arglst, format);
 
 	int nb = 0;
-	char logbuf[LOG_BUF_SIZE] = {0};
+	//char logbuf[LOG_BUF_SIZE] = {0};
+	static char *logbuf = NULL;
+	if (logbuf == NULL) logbuf = new char[LOG_BUF_SIZE];
 	char timestr[24];
 	switch(level){
 	case E_LOG_ERROR:
@@ -67,7 +83,7 @@ int Logging(int level, const char *format, ...)
 	}
 
 	nb = vfprintf(flog, logbuf, arglst);
-	//fflush(flog);
+	fflush(flog);
 
 	pthread_mutex_unlock(&log_mutex);
 
@@ -76,6 +92,14 @@ int Logging(int level, const char *format, ...)
 
 char *gettime(char *timestr) // 'timestr's length at least 20 bytes.
 {
+#ifdef WIN32
+	SYSTEMTIME stm;
+	GetLocalTime(&stm);
+	snprintf(timestr, 20, "%04d-%02d-%02d %02d:%02d:%02d",
+		stm.wYear, stm.wMonth, stm.wDay,
+		stm.wHour, stm.wMinute, stm.wSecond);
+	return timestr;
+#else
     time_t time_now = time(NULL);
     struct tm mt;
     localtime_r(&time_now, &mt);
@@ -84,4 +108,5 @@ char *gettime(char *timestr) // 'timestr's length at least 20 bytes.
         mt.tm_year, mt.tm_mon, mt.tm_mday,
         mt.tm_hour, mt.tm_min, mt.tm_sec);
     return timestr;
+#endif
 }

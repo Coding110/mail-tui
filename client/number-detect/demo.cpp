@@ -5,12 +5,14 @@
 int detect_test(int argc, char *argv[]);
 int config_test(int argc, char *argv[]);
 
+#ifndef WIN32
 int main(int argc, char *argv[])
 {
 	//detect_test(argc, argv);
 	config_test(argc, argv);
 	return 0;
 }
+#endif
 
 int config_test(int argc, char *argv[])
 {
