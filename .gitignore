@@ -6,6 +6,6 @@ client/win32/TuiClient/TuiClient.sdf
 client/win32/TuiClient/Debug/*
 client/win32/TuiClient/ipch/*
 client/win32/TuiClient/TuiClient/Debug/*
-client/win32/TuiClient/Release/*
+client/win32/TuiClient/Release/TuiClient.pdb
 client/win32/TuiClient/TuiClient/Release/*
 client/win32/TuiClient/TuiClient.opensdf

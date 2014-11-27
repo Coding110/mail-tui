@@ -14,6 +14,7 @@ typedef struct _config_t
 	string get_num_url;
 	string upload_num_url;
 	string username;
+	int log_level;
 }config_t;
 
 int read_config(const char *cfgfile, config_t &cfg);

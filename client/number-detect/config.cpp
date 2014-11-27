@@ -14,6 +14,8 @@ int read_config(const char *cfgfile, config_t &cfg)
 		return -2;
 	}
 
+	cfg.log_level = 1;
+
 	char read_buf[1024], key[1024], value[1024];
 	int i = 1;
 	int buf_size = 0;
@@ -40,7 +42,10 @@ int read_config(const char *cfgfile, config_t &cfg)
 			cfg.thread_count = atoi(value);
 		}else if(memcmp(key, "username", 8) == 0){
 			cfg.username = value;
-		}else{
+		}else if (memcmp(key, "log", 3) == 0){
+			cfg.log_level = atoi(value);
+		}
+		else{
 		}
 	}
 
