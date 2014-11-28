@@ -9,3 +9,4 @@ client/win32/TuiClient/TuiClient/Debug/*
 client/win32/TuiClient/Release/*
 client/win32/TuiClient/TuiClient/Release/*
 client/win32/TuiClient/TuiClient.opensdf
+client/win32/TuiClient/TuiClient/detect.log

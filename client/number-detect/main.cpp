@@ -42,7 +42,7 @@ int easy_detect()
 		return -1;
 	config_show(cfg);
 
-	OpenLog("detect.log", E_LOG_DEBUG);
+	OpenLog("detect.log", cfg.log_level);
 
 	vector<number_info_t> nis;
 	int nis_len;
