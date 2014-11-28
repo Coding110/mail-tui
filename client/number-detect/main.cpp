@@ -49,16 +49,16 @@ int easy_detect()
 	CThdPool thd_pool;
 	thd_pool.PoolInit(cfg.thread_count, detect_callback);
 
-	printf("easy detect starting 1.\n");
+	//printf("easy detect starting 1.\n");
 	Logging(E_LOG_DEBUG, "easy detect starting.");
-	printf("easy detect starting 2.\n");
+	//printf("easy detect starting 2.\n");
 
 	while(true)
 	{
 		if(get_detecting_numbers(nis, cfg.username.c_str(), cfg.get_num_url.c_str()) < 0) sleep(2);
 		nis_len = nis.size();
 		Logging(E_LOG_DEBUG, "got %d numbers", nis_len);
-		printf("got %d numbers\n", nis_len);
+		//printf("got %d numbers\n", nis_len);
 		for(int i = 0; i < nis_len; i++){
 			thd_pool.AddTask(&nis[i]);
 		}

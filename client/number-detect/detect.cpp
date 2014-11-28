@@ -155,10 +155,15 @@ int upload_detected_result(vector<number_info_t> &nis, const char *user, const c
 	data_t http_data;
 
 	int buf_len = 30 * len + 100; // 估算内存大小，每个QQ的信息大小大概是30个字节
-	buf = new char[buf_len];
-	//if(buf == NULL) printf("new memory error [%s]\n", strerror(errno));
+	//Logging(E_LOG_DEBUG, "1 buffer len: %d, bufp: %p, errno: %d\n", buf_len, buf, errno);
+	while (buf == NULL){
+		buf = new char[buf_len];
+		if (buf == NULL) Logging(E_LOG_ERROR, "new buffer for detected result failed");
+	}
+	//Logging(E_LOG_DEBUG, "2 buffer len: %d, bufp: %p, errno: %d\n", buf_len, buf, errno);
 	int buf_size = 0;
 	buf_size = snprintf(buf, buf_len, "result={\"version\":\"%s\",\"result\":[", VERSION);
+	Logging(E_LOG_DEBUG, "buffer 1: %s\n", buf);
 
 	int flag = 0;
 	int total = len;
