@@ -14,7 +14,7 @@ include 'DBHelper.php';
   	/**
   	 * 分配数据--号码
   	 * API:
-  	 * http://host/ws.php?method=get-qq-numbers&u=username&version=1.0
+  	 * http://host/ws.php?method=get-qq-numbers&username=username&version=1.0
   	 * Return:{
   	 *   "version":1.0,
   	 *   "QQs":"50000,50001,..." # 每个号由逗号隔开，数量由实际情况决定
@@ -66,7 +66,7 @@ include 'DBHelper.php';
   	/**
   	 *  更新分配QQ号段信息
   	 */
-  	public static function updateAllocNum($startNumber,$allocCount){
+  	public  function updateAllocNum($startNumber,$allocCount){
   		global $log;
   		
   		//更新已分配QQ号段信息 以及 存储 已分配号段信息
@@ -80,9 +80,9 @@ include 'DBHelper.php';
   		
   		//临时保存已分配的QQ号码
   		$qqString = '';
-  		for($i=$startNumber;$i<=$endNumber;$i++){
+  		for($i=$startNumber;$i<=$endNumber-1;$i++){
   			$alloc_time =  date("Y-m-d H:i:s");
-  			if($i==$endNumber){
+  			if($i==$endNumber-1){
   				$qqString .="('".$i."','".$alloc_time."')";
   			}else{
   				$qqString .="('".$i."','".$alloc_time."'),";
@@ -115,21 +115,38 @@ include 'DBHelper.php';
   		global $log;
   		
   		$db = new DBHelper();
+  		$activeCount = 0;
   		foreach ($jsonArrQQ as $keyQQ){
   			
   			$qqNum = $keyQQ->qq;
   			$weight = $keyQQ->weight;//权值
   			$detect_time = date("Y-m-d H:i:s");
   			
-  			
+  		
+  			if(isset($weight) && $weight>0){
+  			$activeCount ++;
   			//保存上传结果
   			$sql = "insert active_qq (number,weight,detect_time) values('".$qqNum."','".
   			$weight."','".$detect_time."')";
   			$log->debug("上传QQ信息表 sql active_qq:".$sql);
   			$db->excuteSql($sql,'Add');
+  			
+  			}
   		}
   		
+  		return $activeCount;
   		
+  		
+  	}
+  	
+  	
+  	/**
+  	 *  保存客户上传QQ数量
+  	 */
+  	public  function saveActQqCount($jsonArrQQ,$activeCount){
+  		global $log;
+  	
+  		$db = new DBHelper();
   		//保存上传QQ个数
   		$ip = get_client_ip();
   		//客户端名字
@@ -137,32 +154,53 @@ include 'DBHelper.php';
   		if(isset($_GET['username'])){
   			$name = $_GET['username'];
   		}
-  		$qq_active_count=count($jsonArrQQ);//活跃的QQ个数
-  		$sql = "insert client_detected_log (name,qq_active_count,ip) values('".$name."','".
-  				$qq_active_count."','".$ip."')";
   		
-  		$log->debug("记录上传QQ个数 sql:".$sql);
+  		
+  		
+  		$sql = "insert client_detected_log (name,qq_active_count,ip) values('".$name."','".
+  				$activeCount."','".$ip."')";
+  		
+  		$log->debug("保存上传QQ活跃个数 client_detected_log:".$sql);
   		$db->excuteSql($sql,'Add');
   		$db->close();
-  		
+  		 
   	}
   	
   	
+  	/**
+  	 * @param 删除已分配QQ号码
+  	 */
+  	public  function delAllocQq($jsonArrQQ){
+  		global $log;
+  		$db = new DBHelper();
+  		$qqString = '';
+  		foreach ($jsonArrQQ as $key=>$value){
+  			$qqNum = $value->qq;
+  			if($key==(count($jsonArrQQ)-1)){
+  				$qqString .=$qqNum;
+  			}else{
+  				$qqString .=$qqNum.',';
+  			}
+  		}
+		  		
+  		$sql = "delete from allocated_qq where number in (".$qqString.")";
+  		$log->debug("删除已分配QQ信息 allocated_qq:".$sql);
+  		$db->excuteSql($sql,'Delete');
+  		$db->close();
+  			
+  	}
   	
   }
   
   $qqSerObj = new qqServer();
   $methodName = $_GET['method'];
   
- 
-  //$jsonArr = json_encode($jsonString);
-  
   
   /**
    *分配QQ号码
    **/
   if(isset($methodName)&&$methodName=='get-qq-numbers'){
-  	$log->debug("开始执行方法:".$methodName);
+  	$log->info("执行方法:".$methodName);
   	$qqSerObj->allocatNum();
   }
   
@@ -176,6 +214,8 @@ include 'DBHelper.php';
   	//将数组或者对象转换json格式
   	
   	if(isset($_REQUEST['result'])){
+  		$log->debug('执行方法:'.$methodName);
+  		
   		$jsonString=$_REQUEST['result'];
   		$log->debug("收到的json数据:".$jsonString);
   		$jsonArr = json_decode($jsonString);
@@ -183,8 +223,22 @@ include 'DBHelper.php';
   		//收到QQ数组
   		
   		$jsonArrQQ = $jsonArr->result;
-  		$log->debug('开始执行方法:'.$methodName);
-  		$qqSerObj->saveNum($jsonArrQQ);
+  		
+  		$log->info('开始保存上传活跃QQ号段');
+  		$activeCount = $qqSerObj->saveNum($jsonArrQQ);
+  		$log->info('结束保存上传活跃QQ号段,活跃QQ个数:'.$activeCount);
+  		
+  		
+  		$log->info('开始保存客户端活跃QQ数量');
+  		$qqSerObj->saveActQqCount($jsonArrQQ,$activeCount);
+  		$log->info('结束保存客户端活跃QQ数量');
+  		
+  		
+  		$log->info('开始删除该客户端当前已分配信息');
+  		$qqSerObj->delAllocQq($jsonArrQQ);
+  		$log->info('结束删除该客户端当前已分配信息');
+  		
+  		
   	}
   	
   }
