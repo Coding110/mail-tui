@@ -42,6 +42,8 @@ int easy_detect()
 		return -1;
 	config_show(cfg);
 
+	OpenLog("detect.log", E_LOG_DEBUG);
+
 	vector<number_info_t> nis;
 	int nis_len;
 	CThdPool thd_pool;

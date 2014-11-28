@@ -105,7 +105,7 @@ int numbers_split(vector<number_info_t> &nis, char *numbers)
     number_info_t ni;
 
     char *p = numbers, *key_point;
-    char key[1024], value[1024];
+    //char key[1024], value[1024];
 
     while(p)
     {
