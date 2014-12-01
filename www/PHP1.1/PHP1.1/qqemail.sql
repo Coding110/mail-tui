@@ -1,8 +1,10 @@
+CREATE DATABASE IF NOT EXISTS test_email default charset utf8;
+use test_email;
 -- 已分配QQ中最大的QQ，由小递增分配QQ给客户端 allocCount 分配个数
 DROP  TABLE  IF EXISTS max_allocated_qq;
 CREATE TABLE max_allocated_qq(
-    number BIGINT NOT NULL,
-		allocCount int NOT NULL
+    number BIGINT NOT NULL
+	
 )ENGINE=MyISAM DEFAULT CHARSET=utf8;
  
 -- 已分配给客户端，但未上传探测结果的QQ。对alloc_time超时1小时的重新分配，整点检查此表。
