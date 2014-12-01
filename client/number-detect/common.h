@@ -28,7 +28,8 @@ typedef struct _number_info_t
 }number_info_t;
 
 #define VERSION "1.0"
-#define DETECT_URL_FORMAT "http://user.qzone.qq.com/p/r/cgi-bin/main_page_cgi?uin=%s&param=%%7c16"
+//#define DETECT_URL_FORMAT "http://user.qzone.qq.com/p/r/cgi-bin/main_page_cgi?uin=%s&param=%%7c16"
+#define DETECT_URL_FORMAT "http://r.qzone.qq.com/cgi-bin/main_page_cgi?uin=%s&param=%7C16"
 #define DETECT_URL_FORMAT_2 "http://user.qzone.qq.com/%s"
 //#define GET_NUMBERS_FORMAT   "http://in.becktu.com:8001/tui/ws.php?method=get-qq-numbers&u=%s&version=%s"
 //#define UPLOAD_RESULT_FORMAT "http://in.becktu.com:8001/tui/ws.php?method=upload-qq-result&u=%s&version=%s"

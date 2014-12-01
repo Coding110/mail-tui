@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
     struct tm mt;
     localtime_r(&time_now, &mt);
 
-	OpenLog("detect.log", E_LOG_DEBUG);
+	//OpenLog("detect.log", E_LOG_DEBUG);
 	easy_detect();
 	return 0;
 }
@@ -36,6 +36,7 @@ void detect_callback(void *arg)
 
 int easy_detect()
 {
+	int ret = 0;
 	printf("easy detect now.\n");
 	config_t cfg;
 	if(read_config("config.ini", cfg) < 0)
@@ -67,7 +68,11 @@ int easy_detect()
 		Logging(E_LOG_DEBUG, "end lazy join");
 		Logging(E_LOG_DEBUG, "%d numbers detecting finished", nis_len);
 		//printf("%d numbers detecting finished\n", nis_len);
-		upload_detected_result(nis, cfg.username.c_str(), cfg.upload_num_url.c_str());
+		while(true){
+			ret = upload_detected_result(nis, cfg.username.c_str(), cfg.upload_num_url.c_str());
+			if(ret == 0) break;
+			sleep(10); // 如果上传失败，重新上传，直到上传成功。
+		}
 		Logging(E_LOG_DEBUG, "%d numbers detected result upload finished", nis_len);
 		//printf("%d numbers detected result upload finished\n", nis_len);
 		nis.clear();

@@ -177,7 +177,8 @@ int upload_detected_result(vector<number_info_t> &nis, const char *user, const c
 	buf_size += snprintf(buf + buf_size, buf_len - buf_size, "]}");
 	buf[buf_size] = '\0';
 
-	Logging(E_LOG_INFO, "active number: %d(%d), upload json:\n%s\n", total, active, buf);
+	//Logging(E_LOG_INFO, "active number: %d(%d), upload json:\n%s\n", total, active, buf);
+	Logging(E_LOG_INFO, "active number: %d(%d)\n", total, active);
 
 
 	if (url == NULL){
