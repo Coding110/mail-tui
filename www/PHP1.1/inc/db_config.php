@@ -2,5 +2,5 @@
 	$host = "192.168.0.81";
 	$user = "root";
 	$pwd = "123456";
-	$db = "qq_email";
+	$db = "test_email";
 ?>
