@@ -102,33 +102,28 @@ int get_detecting_numbers(vector<number_info_t> &nis, const char *user, const ch
 			p_url = url;
 		}
 
-		//printf("request URL: %s\n", p_url);
-
 		ret = http_get(p_url, http_data);
 		if (ret < 0){
 			ret = -1; break;
 		}
 
-		//printf("response: %s\n", http_data.buffer.c_str());
-
 		cJSON *json, *item;
 		json = cJSON_Parse(http_data.buffer.c_str());
 		if (!json){
-			//fprintf(stderr, "JSON parse error [%s]\n", cJSON_GetErrorPtr());
-			Logging(E_LOG_ERROR, "JSON parse error [%s]\n", cJSON_GetErrorPtr());
+			//Logging(E_LOG_ERROR, "JSON parse error [%s]\n", cJSON_GetErrorPtr());
 			ret = -2; break;
 		}
 
 		item = cJSON_GetObjectItem(json, "QQs");
 		if (!json){
-			Logging(E_LOG_ERROR, "Get array item of JSON error [%s]\n", cJSON_GetErrorPtr());
+			//Logging(E_LOG_ERROR, "Get array item of JSON error [%s]\n", cJSON_GetErrorPtr());
 			ret = -3; break;
 		}
 
 		pQQs = cJSON_Print(item);
 		//printf("QQs 1: %s\n", pQQs);
 		if (pQQs == NULL){
-			Logging(E_LOG_ERROR, "Get item value of JSON error [%s]\n", cJSON_GetErrorPtr());
+			//Logging(E_LOG_ERROR, "Get item value of JSON error [%s]\n", cJSON_GetErrorPtr());
 			ret = -4; break;
 		}
 		int len = strlen(pQQs);
@@ -163,7 +158,7 @@ int upload_detected_result(vector<number_info_t> &nis, const char *user, const c
 	//Logging(E_LOG_DEBUG, "2 buffer len: %d, bufp: %p, errno: %d\n", buf_len, buf, errno);
 	int buf_size = 0;
 	buf_size = snprintf(buf, buf_len, "result={\"version\":\"%s\",\"result\":[", VERSION);
-	Logging(E_LOG_DEBUG, "buffer 1: %s\n", buf);
+	//Logging(E_LOG_DEBUG, "buffer 1: %s\n", buf);
 
 	int flag = 0;
 	int total = len;
@@ -196,7 +191,7 @@ int upload_detected_result(vector<number_info_t> &nis, const char *user, const c
 	}
 
 	ret = http_post(p_url, buf, http_data);
-	Logging(E_LOG_INFO, "upload respone:\n%s\n", http_data.buffer.c_str());
+	//Logging(E_LOG_INFO, "upload respone:\n%s\n", http_data.buffer.c_str());
 	if (buf) delete[] buf;
 	if (post_url) delete[] post_url;
 

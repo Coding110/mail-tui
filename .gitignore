@@ -12,3 +12,5 @@ client/win32/TuiClient/TuiClient/Release/*
 client/win32/TuiClient/TuiClient.opensdf
 client/win32/TuiClient/TuiClient.v12.suo
 client/win32/TuiClient/TuiClient/detect.log
+client/win32/TuiClient/Release/detect.log
+client/win32/TuiClient/Debug/detect.log

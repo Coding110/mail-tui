@@ -7,11 +7,16 @@
 #include "TuiClientDlg.h"
 #include "afxdialogex.h"
 #include "detect.h"
+#include "log.h"
 
+#include <iostream>  
+#include <sstream> 
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
+
+#define MAX_LOG_LINE 50
 
 
 // CAboutDlg dialog used for App About
@@ -59,6 +64,7 @@ CTuiClientDlg::CTuiClientDlg(CWnd* pParent /*=NULL*/)
 void CTuiClientDlg::DoDataExchange(CDataExchange* pDX)
 {
 	CDialogEx::DoDataExchange(pDX);
+	DDX_Control(pDX, IDC_TXT_LOG, mDlgLog);
 }
 
 BEGIN_MESSAGE_MAP(CTuiClientDlg, CDialogEx)
@@ -231,6 +237,8 @@ void CTuiClientDlg::OnBnCancelAutoRun()
 
 int CTuiClientDlg::Init()
 {
+	InitializeCriticalSection(&m_cs);
+
 	pthread_create(&m_hThread, NULL, &DetectCallback, this);
 
 	// 主窗口显示Logo
@@ -246,8 +254,17 @@ int CTuiClientDlg::Init()
 		128,
 		SWP_NOACTIVATE | SWP_NOMOVE | SWP_NOZORDER);
 
-	// 最小化到托盘
+	// 
+	//for (int i = 0; i < 11; i++){
+	//	ShowLog("Welcome using TuiClient!");
+	//	ShowLog("Log start.");
+	//	ShowLog("Every thing is OK.");
+	//	ShowLog("Hello world.");
+	//	ShowLog("就是写日志，就是任性");
+	//}
 
+	//SetLogModel(1, DlgLogProc, this);
+	ShowLog("欢迎使用本软件。", 1);
 
 	return 0;
 }
@@ -313,5 +330,55 @@ void CTuiClientDlg::OnClose()
 {
 	// TODO: Add your message handler code here and/or call default
 	DeleteTray();
+	DeleteCriticalSection(&m_cs);
 	CDialogEx::OnClose();
+}
+
+void CTuiClientDlg::ShowLog(char* log, int time_flag)
+{
+	EnterCriticalSection(&m_cs);
+
+	char timestr[24];
+	gettime(timestr);
+
+	wstring new_logs, line_logs[MAX_LOG_LINE];  //窗口日志最多显示MAX_LOG_LINE行
+	CString logs;
+	mDlgLog.GetWindowTextW(logs);
+
+	wstringstream ss;
+	ss.str(logs.GetBuffer());
+	CString str;	
+	int line_count = 0;
+
+	mDlgLog.GetWindowTextW(logs);
+	wstring line;
+	do{
+		getline(ss, line);
+		if (line.empty()) break;
+		line_logs[line_count++] = line;
+	} while (1);
+	
+	int start_line = 0;
+	if (line_count >= MAX_LOG_LINE) start_line = 1;
+	else start_line = 0;
+	for (int i = start_line; i < line_count; i++){
+		new_logs += line_logs[i];
+		new_logs += L"\n";
+	}
+
+	if (time_flag){
+		mDlgLog.SetWindowText(CW2A(new_logs.c_str()) + timestr + "  " + log +  "\r\n");
+	}else{
+		mDlgLog.SetWindowText(CW2A(new_logs.c_str()) + log + "\r\n");
+	}
+
+	mDlgLog.LineScroll(mDlgLog.GetLineCount());
+
+	LeaveCriticalSection(&m_cs);
+}
+
+void CTuiClientDlg::DlgLogProc(char *log, void *arg)
+{
+	CTuiClientDlg *pdlg = (CTuiClientDlg*)arg;	
+	pdlg->ShowLog(log);
 }

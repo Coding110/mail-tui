@@ -54,7 +54,7 @@ int http_get(const char *url, data_t &http_data)
         res = curl_easy_perform(curl);   // 执行
         if (res != 0) {
 			ret = -1;
-			Logging(E_LOG_ERROR, "curl error: %s, url: %s\n", curl_easy_strerror(res), url);
+			//Logging(E_LOG_ERROR, "curl error: %s, url: %s\n", curl_easy_strerror(res), url);
         }else{
 		}
     }

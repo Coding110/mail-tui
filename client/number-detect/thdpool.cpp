@@ -102,7 +102,7 @@ int CThdPool::AddTask(void *pUser, TaskConsumHandle handle/* = NULL*/){
 	if(handle) tTaskInfo.fTaskHandle = handle;
 	else tTaskInfo.fTaskHandle = mComTaskHandle;
 	mTaskList.push_back(tTaskInfo);
-	mBusy = true;
+	//mBusy = true;
 	//printf("New task come in, handle: %p, serve handle: %p, task count: %lu.\n", handle, tTaskInfo.fTaskHandle, mTaskList.size());
 	return 0;
 }
@@ -119,11 +119,11 @@ bool CThdPool::GetNewTask(TaskInfo &task_info)
 		task_info = *mTaskList.begin();
 		mTaskList.pop_front();
 		ret = true;		
-		mBusy = true;
+		//mBusy = true;
 		//static int n = 0;
 		//printf("Task: %d\n", ++n);
 	}else{
-		mBusy = false;
+		//mBusy = false;
 	}
 	//printf("Get task: %d\n", ret);
 	return ret;

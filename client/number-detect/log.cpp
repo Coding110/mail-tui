@@ -15,26 +15,39 @@ static char slogfile[256];
 static int slog_level = 0;
 static pthread_mutex_t log_mutex;
 
+static int log_model = M_LOG_FILE;
+static LoggingHandle floghd = NULL;
+static void *pHandleData = NULL;
+
 char *gettime(char *timestr);
 
 int OpenLog(const char *logfile, int log_level)
 {
+	if (log_model == M_LOG_FILE){
 #ifdef WIN32
-	errno_t en = fopen_s(&flog, logfile, "a");
-	if(en){
-		fprintf(stderr, "Log file open failed, file: %s, errno: %d\n", logfile, en);
-		return -1;
-}
+		errno_t en = fopen_s(&flog, logfile, "a");
+		if (en){
+			fprintf(stderr, "Log file open failed, file: %s, errno: %d\n", logfile, en);
+			return -1;
+		}
 #else
-	flog = fopen(logfile, "a"); 
-	if (flog == NULL){
-		fprintf(stderr, "Log file open failed, file: %s, errno: %d\n", logfile, errno);
-		return -1;
-	}
+		flog = fopen(logfile, "a"); 
+		if (flog == NULL){
+			fprintf(stderr, "Log file open failed, file: %s, errno: %d\n", logfile, errno);
+			return -1;
+		}
 #endif
-	
+	}
 	slog_level = log_level;
 	pthread_mutex_init(&log_mutex, NULL);
+	return 0;
+}
+
+int SetLogModel(int model, LoggingHandle flhd, void *arg)
+{
+	log_model = model;
+	floghd = flhd;
+	pHandleData = arg;
 	return 0;
 }
 
@@ -47,7 +60,7 @@ int CloseLog()
 
 int Logging(int level, const char *format, ...)
 {
-	if(flog == NULL){
+	if (flog == NULL && floghd == NULL){
 		fprintf(stderr, "Can't write log, the log file have not open.\n");
 		return -1;
 	}
@@ -62,8 +75,9 @@ int Logging(int level, const char *format, ...)
 
 	int nb = 0;
 	//char logbuf[LOG_BUF_SIZE] = {0};
-	static char *logbuf = NULL;
+	static char *logbuf = NULL, *logbuf2 = NULL;
 	if (logbuf == NULL) logbuf = new char[LOG_BUF_SIZE];
+	if (logbuf2 == NULL) logbuf2 = new char[LOG_BUF_SIZE];
 	char timestr[24];
 	switch(level){
 	case E_LOG_ERROR:
@@ -82,9 +96,17 @@ int Logging(int level, const char *format, ...)
 		break;
 	}
 
-	nb = vfprintf(flog, logbuf, arglst);
-	fflush(flog);
-
+	if (log_model == M_LOG_DLG && floghd){ // 这种模式在MFC中有问题，无法使用
+#ifdef WIN32
+		vsnprintf_s(logbuf2, LOG_BUF_SIZE, LOG_BUF_SIZE, logbuf, arglst);
+#else
+		vsnprintf(logbuf2, LOG_BUF_SIZE, logbuf, arglst);
+#endif
+		floghd(logbuf2, pHandleData);
+	}else{
+		nb = vfprintf(flog, logbuf, arglst);
+		//fflush(flog);
+	}
 	pthread_mutex_unlock(&log_mutex);
 
 	return 0;
