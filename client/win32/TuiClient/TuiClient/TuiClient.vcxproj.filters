@@ -80,10 +80,10 @@
     <ClCompile Include="..\..\..\number-detect\log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\number-detect\main.cpp">
+    <ClCompile Include="..\..\..\number-detect\thdpool.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\number-detect\thdpool.cpp">
+    <ClCompile Include="..\..\..\number-detect\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
