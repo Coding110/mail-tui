@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 int config_test(int argc, char *argv[])
 {
 	config_t g_cfg;
-	read_config("config.ini", g_cfg);
+	//ead_config("config.ini", g_cfg);
 	config_show(g_cfg);
 	return 0;
 }

@@ -17,8 +17,12 @@ typedef struct _config_t
 	int log_level;
 }config_t;
 
-int read_config(const char *cfgfile, config_t &cfg);
+extern config_t gcfg;
+
+int read_config(const char *cfgfile);
+//int read_config(const char *cfgfile, config_t &cfg);
 int config_show(config_t &cfg);
+config_t &get_config();
 
 #endif
 

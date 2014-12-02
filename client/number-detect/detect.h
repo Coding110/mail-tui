@@ -7,6 +7,8 @@
 using namespace std;
 
 #include "common.h"
+#include "config.h"
+//extern config_t gcfg;
 
 int get_detecting_numbers(vector<number_info_t> &nis, const char *user = "selfless guy", const char *url = NULL);
 int upload_detected_result(vector<number_info_t> &nis, const char *user = "selfless guy", const char *url = NULL);

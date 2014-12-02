@@ -2,10 +2,17 @@
 #include <stdlib.h>
 #include "config.h"
 
+config_t gcfg;
+
 int line_string_clean(char *line, int line_size);
 int config_show(config_t &cfg);
 
-int read_config(const char *cfgfile, config_t &cfg)
+config_t &get_config()
+{
+	return gcfg;
+}
+//int read_config(const char *cfgfile, config_t &cfg)
+int read_config(const char *cfgfile)
 {
 	if(cfgfile == NULL) return -1;
 
@@ -14,6 +21,7 @@ int read_config(const char *cfgfile, config_t &cfg)
 		return -2;
 	}
 
+	config_t &cfg = gcfg;
 	cfg.log_level = 1;
 
 	char read_buf[1024], key[1024], value[1024];

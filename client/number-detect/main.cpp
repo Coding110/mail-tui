@@ -10,6 +10,8 @@
 #include <unistd.h>
 #endif
 
+extern config_t gcfg;
+
 int easy_detect();
 
 #ifndef WIN32
@@ -38,25 +40,20 @@ int easy_detect()
 {
 	int ret = 0;
 	printf("easy detect now.\n");
-	config_t cfg;
-	if (read_config("config.ini", cfg) < 0)
+	if (read_config("config.ini") < 0)
 		return -1;
-	config_show(cfg);
+	//config_show(gcfg);
 
-	OpenLog("detect.log", cfg.log_level);
+	OpenLog("detect.log", gcfg.log_level);
 
 	vector<number_info_t> nis;
 	int nis_len;
 	CThdPool thd_pool;
-	thd_pool.PoolInit(cfg.thread_count, detect_callback);
-
-	//printf("easy detect starting 1.\n");
-	//Logging(E_LOG_INFO, "");
-	//printf("easy detect starting 2.\n");
+	thd_pool.PoolInit(gcfg.thread_count, detect_callback);
 
 	while (true)
 	{
-		if (get_detecting_numbers(nis, cfg.username.c_str(), cfg.get_num_url.c_str()) < 0){
+		if (get_detecting_numbers(nis, gcfg.username.c_str(), gcfg.get_num_url.c_str()) < 0){
 			sleep(2);
 			//Logging(E_LOG_DEBUG, "No task to do.");
 			continue;
@@ -73,7 +70,7 @@ int easy_detect()
 		Logging(E_LOG_DEBUG, "%d numbers detecting finished", nis_len);
 		//printf("%d numbers detecting finished\n", nis_len);
 		while (true){
-			ret = upload_detected_result(nis, cfg.username.c_str(), cfg.upload_num_url.c_str());
+			ret = upload_detected_result(nis, gcfg.username.c_str(), gcfg.upload_num_url.c_str());
 			if (ret == 0) break;
 			sleep(10); // 如果上传失败，重新上传，直到上传成功。
 		}

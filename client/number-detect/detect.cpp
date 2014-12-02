@@ -5,6 +5,9 @@
 #include "detect.h"
 #include "cJSON.h"
 #include "log.h"
+#include "config.h"
+
+extern config_t gcfg;
 
 int get_ss_weight(string &html);
 int get_content_weight(string &html);
@@ -15,13 +18,23 @@ int qzone_detect(const char *number)
 	char detect_url_1[1024];
 	char detect_url_2[1024];
 	data_t http_data;
-	snprintf(detect_url_1, 1024, DETECT_URL_FORMAT, number);
+	if (!gcfg.num_detect_url_1.empty() && gcfg.num_detect_url_1.size() > 7){
+		snprintf(detect_url_1, 1024, gcfg.num_detect_url_1.c_str(), number);
+	}else{
+		snprintf(detect_url_1, 1024, DETECT_URL_FORMAT, number);
+	}
 	ret = http_get(detect_url_1, http_data);
 	string_line_format(http_data.buffer);
 	weight = get_ss_weight(http_data.buffer);
 	if (weight == -1){
 		http_data.buffer.clear();
-		snprintf(detect_url_2, 1024, DETECT_URL_FORMAT_2, number);
+		if (!gcfg.num_detect_url_2.empty() && gcfg.num_detect_url_2.size() > 7){
+			snprintf(detect_url_2, 1024, gcfg.num_detect_url_2.c_str(), number);
+		}
+		else{
+			snprintf(detect_url_2, 1024, DETECT_URL_FORMAT_2, number);
+		}
+		
 		ret = http_get(detect_url_2, http_data);
 		weight = get_content_weight(http_data.buffer);
 	}
