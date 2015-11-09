@@ -25,6 +25,9 @@ int qzone_detect(const char *number)
 	}
 	ret = http_get(detect_url_1, http_data);
 	string_line_format(http_data.buffer);
+
+	printf("detect URL 1: %s, response: %s\n", detect_url_1, http_data.buffer.c_str());
+
 	weight = get_ss_weight(http_data.buffer);
 	if (weight == -1){
 		http_data.buffer.clear();
@@ -38,7 +41,7 @@ int qzone_detect(const char *number)
 		ret = http_get(detect_url_2, http_data);
 		weight = get_content_weight(http_data.buffer);
 	}
-	//printf("mail weight: %d\n", weight);
+	printf("mail weight: %d\n", weight);
 	return weight;
 }
 
